@@ -337,3 +337,22 @@ High
     "DFFlagDebugEnableInterpolationVisualizer": "True"
 }
 ```
+
+### Humanoid Outline
+<small>Draws an outline around every part and every humanoid</small>
+```
+{
+    "DFFlagDebugDrawBroadPhaseAABBs": "True"
+}
+```
+
+### FFlag above but more complex
+<small>Draws an outline around every body part</small>
+```
+{
+    "DFFlagDebugDrawBvhNodes": "True"
+}
+```
+
+### Buggy ZPlane Camera
+<small>aka Can be used as XRAY</small>
