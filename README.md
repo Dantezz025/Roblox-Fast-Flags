@@ -5,7 +5,8 @@
 
 **Textures not working right now. Because Roblox removed "FFlagMSRefactor5"**
 
-<span style="color:red"># WARNING</span>
+![# WARNING](https://img.shields.io/badge/WARNING-red)
+
 **Some Fast Flags Can Be Banable in certain games**
 
 ## List Navigation
