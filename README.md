@@ -172,3 +172,14 @@ High
 9 = 18
 10 = 21
 ```
+
+### 21 Graphics Quality Slider
+```
+{
+    "FFlagCommitToGraphicsQualityFix": "True",
+    "FFlagFixGraphicsQuality": "True"
+}
+```
+
+### Low Render Distance
+[FRM](#FRM)
