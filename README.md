@@ -79,3 +79,55 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
 ```
 
 ## Graphical Settings & more
+
+### Draws a circle under avatars
+```
+{
+    "FFlagDebugAvatarChatVisualization": "True",
+    "FFlagEnableInGameMenuChromeABTest2": "False"
+}
+```
+
+### HyperThreading
+```
+{
+    "FFlagDebugCheckRenderThreading": "True",
+    "FFlagRenderDebugCheckThreading2": "True"
+}
+```
+
+### Maximum Threads
+```
+{
+    "FIntRuntimeMaxNumOfThreads": "2400"
+}
+```
+
+### Minimum Threads
+```
+{
+    "FIntTaskSchedulerThreadMin": "3"
+}
+```
+
+### Smoother Terrain
+```
+{
+    "FFlagDebugRenderingSetDeterministic": "True"
+}
+```
+
+### Graphics Quality Level
+```
+{
+    "FIntRomarkStartWithGraphicQualityLevel": "1"
+}
+```
+
+### Low Quallity Terrain Textures
+# 4 for less quality 16, 32, 64 for higher quality
+```
+{
+    "FIntTerrainArraySliceSize": "4"
+}
+```
