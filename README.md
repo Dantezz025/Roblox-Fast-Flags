@@ -1,6 +1,6 @@
 # FastFlags List
 
-##          Info
+# Info
 
 ![**143 Currently Listed**](https://img.shields.io/badge/143%20Currently%20Listed-yellow)
 
