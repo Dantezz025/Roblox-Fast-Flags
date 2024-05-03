@@ -903,3 +903,263 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
     "DFIntVoiceChatRollOffMaxDistance": "80"
 }
 ```
+
+### Disable In-Game Purchases
+```
+{
+    "DFFlagOrder66": "True"
+}
+```
+
+### Disable Chat
+```
+{
+    "FFlagDebugForceChatDisabled": "True"
+}
+```
+
+### Limit audios that are being played
+```
+{
+    "DFIntMaxLoadableAudioChannelCount": "1"
+}
+```
+
+### Adds an UI in game, which highlights any part player touches (like ground, Meshes etc.). It's a non-functioning UI too. Also adds a blue circle to your humanoid.
+```
+{
+    "FFlagDebugHumanoidRendering": "True"
+}
+```
+
+### Custom Disconnect Message
+```
+{
+    "FFlagReconnectDisabled": "True",
+    "FStringReconnectDisabledReason": "You're stupid and I hate you"
+}
+```
+
+### Display FPS
+```
+{
+    "FFlagDebugDisplayFPS": "True"
+}
+```
+
+### Verified Badge
+<small>Clientsided</small>
+```
+{
+    "FStringWhitelistVerifiedUserId": "UserID"
+}
+```
+
+### Verified Badge on everyone
+<small>Clientsided</small>
+```
+{
+    "FFlagOverridePlayerVerifiedBadge": "True"
+}
+```
+
+### Applies cool colors to stuff
+```
+{
+    "FFlagDebugDisplayUnthemedInstances": "True"
+}
+```
+
+### Show Outlined Chunks
+```
+{
+    "FFlagDebugLightGridShowChunks": "True"
+}
+```
+
+### Show Outlined Chunks that are being interacted
+```
+{
+    "DFFlagDebugEnableStreamingSolverVisualization": "True"
+}
+```
+
+### Remove Disconnect Blur/Loading Blur
+```
+{
+    "FIntRobloxGuiBlurIntensity": "0"
+}
+```
+
+### Disable Dynamic Heads Animations
+<small>https://roblox.fandom.com/wiki/Dynamic_Head</small>
+```
+{
+    "DFIntAnimationLodFacsDistanceMin": "0",
+    "DFIntAnimationLodFacsDistanceMax": "0",
+    "DFIntAnimationLodFacsVisibilityDenominator": "0"
+}
+```
+
+### Fail Safe Humanoid
+<small>gray avatars</small>
+```
+{
+    "FFlagFailsafeHumanoid_3": "True"
+}
+```
+
+### Automatically unmutes your mic on join (VC)
+```
+{
+    "FFlagDebugDefaultChannelStartMuted": "False"
+}
+```
+
+### Overlay that shows what you type
+```
+{
+    "FFlagDebugTextBoxServiceShowOverlay": "True"
+}
+```
+
+### Ammount of lines to show at once for above
+```
+{
+    "DFIntTextBoxServiceHistorySize": "1"
+}
+```
+
+### Opt-Put Experience Language
+<small>Removes the Experience Language option in settings</small>
+```
+{
+    "FIntV1MenuLanguageSelectionFeaturePerMillageRollout": "0"
+}
+```
+
+### Disable New Chat Translation Settings
+```
+{
+    "FFlagChatTranslationSettingEnabled3 ": "False"
+}
+```
+
+### Lets you change the zoom out limit
+<small>Only applies to games that has not changed the default zoom limit</smalL>
+```
+{
+    "FIntCameraMaxZoomDistance": "9999"
+}
+```
+
+### Limits number of animations being played
+```
+{
+    "DFIntMaxActiveAnimationTracks": "0"
+}
+```
+
+### Prevents Remote Events from running
+```
+{
+    "DFIntRemoteEventSingleInvocationSizeLimit": "1"
+}
+```
+
+### Mess with voice chat volume
+<small>default 1000</small>
+```
+{
+    "DFIntVoiceChatVolumeThousandths": "100000"
+}
+```
+
+### Removes the head roll limit for face tracking
+<small>Removes the head roll limit for face tracking</small>
+```
+{
+    "DFIntAvatarFaceChatHeadRollLimitDegrees": "360"
+}
+```
+
+### VR Controller transparency
+```
+{
+    "FIntVRTouchControllerTransparency": "0"
+}
+```
+
+### No sounds
+```
+{
+    "FFlagDebugRomarkMockingAudioDevices": "True"
+}
+```
+
+### Exclusive Fullscreen
+```
+{
+    "FFlagHandleAltEnterFullscreenManually": "False"
+}
+```
+
+### Logs stuff in dev console
+```
+{
+    "FStringDebugLuaLogLevel": "debug",
+    "FStringDebugLuaLogPattern": "ExpChat/mountClientApp"
+}
+```
+
+### Self Explanatory 1
+```
+{
+    "DFFlagDebugPrintDataPingBreakDown": "True"
+}
+```
+
+### Self Explanatory 2
+```
+{
+    "DFFlagDebugAudioLogging": "True"
+}
+```
+
+### Duplicate of Above
+```
+{
+    "DFFlagDebugAudioLogging2": "True"
+}
+```
+
+### Self Explanatory 3
+```
+{
+    "FFlagTrackerLodControllerDebugUI": "True"
+}
+```
+
+### Self Explanatory 4
+<small>Disable Drag Detectors</small>
+```
+{
+    "FFlagDragDetectors1": "False"
+}
+```
+
+### Self Explanatory 5
+<small>Disabe CTM Climbin</small>
+```
+{
+    "FFlagUserClickToMoveSupportAgentCanClimb2": "False"
+}
+```
+
+### Self Explanatory 6
+<small>Disabe Feedback Button in ESC</small>
+```
+{
+    "FFlagDisableFeedbackSoothsayerCheck": "False"
+}
+```
