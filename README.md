@@ -15,6 +15,8 @@
 
 **Some Fast Flags Can Be Banable in certain games**
 
+---
+
 ## List Navigation
 • [Lightning Technologies](#lightning-technologies)
 
