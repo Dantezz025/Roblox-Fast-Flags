@@ -286,3 +286,47 @@ High
     "DFIntTextureQualityOverride": "3"
 }
 ```
+
+### Lower Quality Textures
+<small>[1-3]</small>
+```
+{
+    "DFIntPerformanceControlTextureQualityBestUtility": "-1"
+}
+```
+
+### No avatar textures
+```
+{
+    "DFIntTextureCompositorActiveJobs": "0"
+}
+```
+
+### Remove Grass
+``` 
+{
+    "FIntFRMMinGrassDistance": "0",
+    "FIntFRMMaxGrassDistance": "0",
+    "FIntRenderGrassDetailStrands": "0",
+    "FIntRenderGrassHeightScaler": "0"
+}
+```
+
+### Force MSAA
+<small>[0, 1, 2, 4, 8]</small>
+```
+{
+    "FIntDebugForceMSAASamples": "4"
+}
+```
+
+### ShadowMap Bias
+<small>[Future & ShadowMap]</small>
+```
+{
+    "FIntRenderShadowmapBias": "75"
+}
+```
+
+### Enables Network Debug Tracker menu <small>aka Can be used as ESP</small>
+<small>Instructions: CTRL+F8</small>
