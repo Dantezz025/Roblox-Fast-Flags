@@ -715,3 +715,191 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
     "DFIntRaycastMaxDistance": "3"
 }
 ```
+
+### Change DataSender Rate
+<small>aka dos not let you load games</small>
+```
+{
+    "DFIntDataSenderRate": "-1"
+}
+```
+
+### Disable Touch Events
+```
+{
+    "DFIntTouchSenderMaxBandwidthBps": "-1"
+}
+```
+
+### Fake Lag
+```
+{
+    "DFIntS2PhysicsSenderRate": "1"
+}
+```
+
+### Invisible 1
+<small>Stops the physics on your character froms sending to the server so your character doesn't move for the server. You can move on your client.</small>
+```
+{
+    "DFIntS2PhysicsSenderRate": "-30"
+}
+```
+
+### Invisible 2
+<small>Locks your character's position on the server to (0, 0, 0), having the side effect of turning you invisible. This only affects the server and other clients, not you. server-sided things that rely on your position, like clicking to get tools, will not function. In some games these can be abusable.</small>
+```
+{
+    "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10"
+}
+```
+
+### Invisible 3 (BEST INVISIBLE)
+<small>Restricts the client from sending any physics-related information. This means other people can topple you over.</small>
+```
+{
+    "DFIntPhysicsSenderMaxBandwidthBps": "1",
+    "DFIntPhysicsSenderMaxBandwidthBpsScaling": "0"
+}
+```
+
+### Clientsided Invisible
+```
+{
+    "FIntParallelDynamicPartsFastClusterBatchSize": "-1",
+}
+```
+
+### Warp & Slowmotion
+```
+{
+    "DFIntMaxMissedWorldStepsRemembered": "1"
+}
+```
+```
+{
+    "DFIntMaxMissedWorldStepsRemembered": "1000"
+}
+```
+
+### Noclip
+<small>Adjust the value so you don't fall through the ground</small>
+```
+{
+        "DFFlagAssemblyExtentsExpansionStudHundredth": "-50"
+}
+```
+
+### Hip Height
+<small>Very controllable bounce, only works with negative values, 0 allows you to hover</small>
+```
+{
+    "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
+}
+```
+
+### Wallglide
+```
+{
+    "DFIntUnstickForceAttackInTenths": "-4"
+}
+```
+
+# Other FFlags
+
+### Disable In-game Advertisements
+```
+{
+    "FFlagAdServiceEnabled": "False"
+}
+```
+
+### Disable Telemetry
+```
+{
+    "FFlagDebugDisableTelemetryEphemeralCounter": "True",
+    "FFlagDebugDisableTelemetryEphemeralStat": "True",
+    "FFlagDebugDisableTelemetryEventIngest": "True",
+    "FFlagDebugDisableTelemetryPoint": "True",
+    "FFlagDebugDisableTelemetryV2Counter": "True",
+    "FFlagDebugDisableTelemetryV2Event": "True",
+    "FFlagDebugDisableTelemetryV2Stat": "True"
+}
+```
+
+### Adjust Scroll Speed
+```
+{
+    "FIntScrollWheelDeltaAmount": "140"
+}
+```
+
+### Surf the web inside of Roblox
+<small>Click the Beta badge or the 13+ badge to open the webview browser.</small>
+```
+{
+    "FFlagTopBarUseNewBadge": "True",
+    "FStringTopBarBadgeLearnMoreLink": "https://google.com/",
+    "FStringVoiceBetaBadgeLearnMoreLink": "https://google.com/"
+}
+```
+
+### Sounds use physical velocity and become distorted
+<small><2017</small>
+```
+{
+    "FFlagSoundsUsePhysicalVelocity": "True"
+}
+```
+
+### Shows the state of a flag
+```
+{
+    "FStringDebugShowFlagState": "FLAG_HERE"
+}
+```
+<small>e.g</small>
+```
+{
+    "FStringDebugShowFlagState": "DFIntTaskSchedulerTargetFps, ChannelName"
+}
+```
+
+### MTU
+```
+{
+    "DFIntConnectionMTUSize": "MTU_HERE"
+}
+```
+
+### Increase Ping
+```
+{
+    "DFIntDataSenderMaxBandwidthBps": "150"
+}
+```
+
+### No Internet Disconnect
+<small>You will still be kicked but the message wont show.</small>
+```
+{
+    "DFFlagDebugDisableTimeoutDisconnect": "True"
+}
+```
+
+### Quick Game Launch
+<small>BUGGY</small>
+```
+{
+    "FFlagEnableQuickGameLaunch": "True"
+}
+```
+
+### Allows you to change voice chat distance
+<small>default: [Min 7 Max 80]</small>
+```
+{
+    "DFIntVoiceChatRollOffMinDistance": "7",
+    "DFIntVoiceChatRollOffMaxDistance": "80"
+}
+```
