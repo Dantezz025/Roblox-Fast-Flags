@@ -618,3 +618,100 @@ High
 ```
 
 # Physics
+
+### N/A
+```
+{
+    "FIntPhysicsGridHierarchyLowestLevelInitBinCount": "199999999",
+    "FIntPhysicsGridHierarchyLowestLevelInitBinCountWorldModel": "100000000",
+    "FIntPhysicsSolverCollisionPoolBucketSize": "2147483647",
+    "FIntPhysicsSolverCollisionPoolBucketSizeWorldModel": "2147483647"
+}
+```
+
+### Crash Roblox
+```
+{
+    "DFIntTimestepArbiterThresholdCFLThou": "0"
+}
+```
+
+### Stuttery Animation Fix
+```
+{
+    "DFIntTimestepArbiterThresholdCFLThou": "300"
+}
+```
+
+### Remap R6 to R15 Rigs/Weird Movement
+```
+{
+    "FFlagRemapAnimationR6ToR15Rig": "True"
+}
+```
+
+### Weird Leg Movement
+```
+{
+    "DFFlagAnimatorPostProcessIK": "True"
+}
+```
+
+### Adjust Hip Height Clamps
+<small>https://www.roblox.com/bundles/63/Mage-Animation-Package</small>
+```
+{
+    "DFIntHipHeightClamp": "-48"
+}
+```
+
+### Random High Jumps
+<small>Video will be added soon</small>
+```
+{
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True"
+}
+```
+
+### Possible Super Jump
+```
+{
+    "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500"
+}
+```
+
+### Drunk
+```
+{
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True"
+}
+```
+
+### No Animations
+<small>Stops the game from trying to replicate your animations in the server. You dont have animations in the server but you do for your client</small>
+```
+{
+    "DFIntReplicatorAnimationTrackLimitPerAnimator": "-1"
+}
+```
+
+### Stick unanchored parts to you
+<small>- = up, + = down</small>
+```
+{
+    "DFIntSolidFloorPercentForceApplication": "-1000",
+    "DFIntNonSolidFloorPercentForceApplication": "-5000"
+}
+```
+
+### Max Raycast Distance
+<small>Raycasting is the use of intersection tests to solve problems in ROBLOX. The most common use of raycasting is to determine the first object intersected by a ray. This is done by casting a virtual ray from a certain point in a direction and determining the first surface it intersected with.
+Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip cam on 3</small>
+```
+{
+    "DFIntRaycastMaxDistance": "3"
+}
+```
