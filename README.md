@@ -183,3 +183,31 @@ High
 
 ### Low Render Distance
 [FRM](#frm-levels)
+```
+{
+    "DFIntDebugRestrictGCDistance": "1"
+}
+```
+
+### Disable Wind
+```
+{
+    "FFlagGlobalWindRendering": "False",
+    "FFlagGlobalWindActivated": "False"
+}
+```
+
+### Limits Light Updates
+```
+{
+    "FIntRenderLocalLightUpdatesMax": "8",
+    "FIntRenderLocalLightUpdatesMin": "6"
+}
+```
+
+### Disables fade in and fade out animation every light update
+```
+{
+    "FIntRenderLocalLightFadeInMs": "0"
+}
+```
