@@ -182,4 +182,4 @@ High
 ```
 
 ### Low Render Distance
-[FRM](#FRM_Levels)
+[FRM](#FRM Levels)
