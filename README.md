@@ -153,5 +153,24 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
     "DFIntDebugFRMQualityLevelOverride": "1"
 }
 ```
+<center>
+### FRM Levels
+</center>
 
-### <center>FRM Levels</center>
+```
+Low
+
+1 = 3
+2 = 2
+3 = 6
+
+High
+
+4 = 7
+5 = 11
+6 = 14
+7 = 15 
+8 = 17
+9 = 18
+10 = 21
+```
