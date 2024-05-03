@@ -10,7 +10,7 @@
 
 ![# WARNING](https://img.shields.io/badge/WARNING-red) ![# WARNING](https://img.shields.io/badge/WARNING-red) ![# WARNING](https://img.shields.io/badge/WARNING-red) ![# WARNING](https://img.shields.io/badge/WARNING-red) ![# WARNING](https://img.shields.io/badge/WARNING-red) ![# WARNING](https://img.shields.io/badge/WARNING-red) ![# WARNING](https://img.shields.io/badge/WARNING-red) ![# WARNING](https://img.shields.io/badge/WARNING-red)
 
-#### USE IT ON UR OWN RISK
+#### USE IT ON YOUR OWN RISK
 **Some Fast Flags Can Be Banable In Certain Games**
 
 ![# WARNING](https://img.shields.io/badge/WARNING-red) ![# WARNING](https://img.shields.io/badge/WARNING-red) ![# WARNING](https://img.shields.io/badge/WARNING-red) ![# WARNING](https://img.shields.io/badge/WARNING-red) ![# WARNING](https://img.shields.io/badge/WARNING-red) ![# WARNING](https://img.shields.io/badge/WARNING-red) ![# WARNING](https://img.shields.io/badge/WARNING-red) ![# WARNING](https://img.shields.io/badge/WARNING-red)
