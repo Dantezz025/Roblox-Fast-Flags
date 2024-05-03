@@ -43,7 +43,7 @@
 
 • [Other FFlags](#other-fflags)
 
-• [FFLAG Combinations]()
+• [FFLAG Combinations](#fast-flag-combinations)
 
 ══════⊹⊱≼≽⊰⊹══════
 
@@ -1197,5 +1197,63 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 {
     "FFlagDisableFeedbackSoothsayerCheck": "False"
+}
+```
+
+## Fast Flag Combinations
+
+### Low Graphics - High Render Distance
+```
+{
+"DFFlagDebugRenderForceTechnologyVoxel": true,
+"DFIntDebugFRMQualityLevelOverride": 1,
+"FIntRenderShadowIntensity": 0
+}
+```
+
+### Lower Ping
+```
+{
+"DFIntConnectionMTUSize": 900,
+"FIntRakNetResendBufferArrayLength": "128",
+"FFlagOptimizeNetwork": "True",
+"FFlagOptimizeNetworkRouting": "True",
+"FFlagOptimizeNetworkTransport": "True",
+"FFlagOptimizeServerTickRate": "True",
+"DFIntServerPhysicsUpdateRate": "60",
+"DFIntServerTickRate": "60",
+"DFIntRakNetResendRttMultiple": "1",
+"DFIntRaknetBandwidthPingSendEveryXSeconds": "1",
+"DFIntOptimizePingThreshold": "50",
+"DFIntPlayerNetworkUpdateQueueSize": "20",
+"DFIntPlayerNetworkUpdateRate": "60",
+"DFIntNetworkPrediction": "120",
+"DFIntNetworkLatencyTolerance": "1",
+"DFIntMinimalNetworkPrediction": "0.1"
+}
+```
+
+### Boost FPS (Comfort To Play)
+```
+{
+"DFIntCSGLevelOfDetailSwitchingDistance": 250,
+"DFIntCSGLevelOfDetailSwitchingDistanceL12": 500,
+"DFIntCSGLevelOfDetailSwitchingDistanceL23": 750,
+"DFIntCSGLevelOfDetailSwitchingDistanceL34": 1000,
+"DFIntTextureQualityOverride": 1,
+"FFlagDisablePostFx": true
+}
+```
+
+### Boost FPS
+```
+{
+"FFlagDebugDisableTelemetryEphemeralCounter": true,
+"FFlagDebugDisableTelemetryEphemeralStat": true,
+"FFlagDebugDisableTelemetryEventIngest": true,
+"FFlagDebugDisableTelemetryPoint": true,
+"FFlagDebugDisableTelemetryV2Counter": true,
+"FFlagDebugDisableTelemetryV2Event": true,
+"FFlagDebugDisableTelemetryV2Stat": true
 }
 ```
