@@ -16,6 +16,18 @@
 
 ---
 
+# Bloxstrap How to Use:
+1. Open the [Bloxstrap Menu](https://github.com/pizzaboxer/bloxstrap).
+2. Navigate to Fast Flags >> Fast Flags Editor >> Import Json.
+3. Paste in the JSON.
+4. Save and your good to go!
+
+# Normal Roblox Bootstrapper How to Use:
+1. Navigate to your Roblox Installation directory. Typically found at %localappdata%\Roblox\Versions\ for Windows or C:\Program Files (x86)\Roblox\Versions.
+2. Identify the folder version-xxxxxxxxxxxxxxxx containing RobloxPlayerBeta.exe You can do this for Roblox Studio too.
+3. Download ClientSettings Folder and put it in folder you opened before
+4. Save and your good to go!
+
 ## List Navigation
 • [Lightning Technologies](#lightning-technologies)
 
