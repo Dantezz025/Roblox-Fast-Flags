@@ -31,3 +31,12 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
     "FFlagDebugForceFutureIsBrightPhase2": "True"
 }
 ```
+
+### Future Lighting (Phase 3)
+```
+{
+    "FFlagDebugForceFutureIsBrightPhase3": "True"
+}
+```
+
+## Rendering API
