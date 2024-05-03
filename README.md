@@ -16,7 +16,7 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
 
 ══════⊹⊱≼≽⊰⊹══════
 
-## Lightning Technologies
+# Lightning Technologies
 
 ### Voxel Lighting (Phase 1)
 ```
@@ -39,7 +39,7 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
 }
 ```
 
-## Rendering API
+# Rendering API
 
 ### MacOS Only
 ```
@@ -78,7 +78,7 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
 }
 ```
 
-# Graphical Settings & more
+# Graphical Settings & More
 
 ### Draws a circle under avatars
 ```
