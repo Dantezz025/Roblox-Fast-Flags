@@ -211,3 +211,78 @@ High
     "FIntRenderLocalLightFadeInMs": "0"
 }
 ```
+
+### Makes avatars shiny
+<small>[everything goes black on <3] [DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3</small>
+```
+{
+    "DFIntRenderClampRoughnessMax": "-640000000",
+    "DFIntDebugFRMQualityLevelOverride": "6"
+}
+```
+
+### Disable PostFX
+```
+{
+    "FFlagDisablePostFx": "True"
+}
+```
+
+### Pause Voxelizer/Disable Baked Shadows
+```
+{
+    "DFFlagDebugPauseVoxelizer": "True"
+}
+```
+
+### Gray Sky
+<small>Only applies to games with the default skybox</small>
+
+### Disable Player Shadows
+```
+{
+    "FIntRenderShadowIntensity": "0"
+}
+```
+
+### Force LOD on Meshes
+```
+{
+    "DFIntCSGLevelOfDetailSwitchingDistance": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL23": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL34": "0"
+}
+```
+
+### Lighting Attenuation
+```
+{
+    "FFlagNewLightAttenuation": "True"
+}
+```
+
+### Enable GPULightCulling
+<small>Combine with Lighting Attenuation for better vision</small>
+```
+{
+    "FFlagFastGPULightCulling3": "True"
+}
+```
+
+### Frame Buffer
+<small>Explnation: 0 makes white screen 1-3 makes other players have laggy movement, 4 is stable has better performance than 10 and less input lag</small>
+```
+{
+    "DFIntMaxFrameBufferSize": "4"
+}
+```
+
+### High Quality Textures
+<small>[1-3]</small>
+```
+{
+    "DFFlagTextureQualityOverrideEnabled": "True",
+    "DFIntTextureQualityOverride": "3"
+}
+```
