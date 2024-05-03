@@ -78,7 +78,7 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
 }
 ```
 
-## Graphical Settings & more
+# Graphical Settings & more
 
 ### Draws a circle under avatars
 ```
@@ -125,7 +125,7 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
 ```
 
 ### Low Quallity Terrain Textures
-# 4 for less quality 16, 32, 64 for higher quality
+#### 4 for less quality 16, 32, 64 for higher quality
 ```
 {
     "FIntTerrainArraySliceSize": "4"
