@@ -25,7 +25,7 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
 }
 ```
 
-№№№ Shadowmap Lighting (Phase 2)
+### Shadowmap Lighting (Phase 2)
 ```
 {
     "FFlagDebugForceFutureIsBrightPhase2": "True"
