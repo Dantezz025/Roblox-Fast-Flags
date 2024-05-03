@@ -40,3 +40,42 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
 ```
 
 ## Rendering API
+
+### MacOS Only
+```
+{
+    "FFlagDebugGraphicsPreferMetal": "True"
+}
+```
+
+### Vulkan
+```
+{
+    "FFlagDebugGraphicsDisableDirect3D11": "True",
+    "FFlagDebugGraphicsPreferVulkan": "True"
+}
+```
+
+### OpenGL
+```
+{
+    "FFlagDebugGraphicsDisableDirect3D11": "True",
+    "FFlagDebugGraphicsPreferOpenGL": "True"
+}
+```
+
+### Direct X 10
+```
+{
+    "FFlagDebugGraphicsPreferD3D11FL10": "True"
+}
+```
+
+### Direct X 11
+```
+{
+    "FFlagDebugGraphicsPreferD3D11": "True"
+}
+```
+
+## Graphical Settings & more
