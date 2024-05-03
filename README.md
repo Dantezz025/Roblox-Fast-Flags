@@ -7,17 +7,17 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
 ## List Navigation
 • [Lightning Technologies](#lightning-technologies)
 
-• [Rendering](#rendering)
+• [Rendering](#rendering-api)
 
-• [Graphics](#graphics) 
+• [Graphics](#graphical-settings-&-More) 
 
-• [UI](#ui)  
+• [UI](#user-interface)  
 
 • [Textures](#textures)  
 
 • [Physics](#physics)  
 
-• [Other FFlags](Other-FFlags)
+• [Other FFlags](other-fflags)
 
 ══════⊹⊱≼≽⊰⊹══════
 
