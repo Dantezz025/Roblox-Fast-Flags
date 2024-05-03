@@ -17,3 +17,6 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
 ## Lightning Technologies
 
 ### Voxel Lighting (Phase 1)
+```{
+    "DFFlagDebugRenderForceTechnologyVoxel": "True"
+}```
