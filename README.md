@@ -332,3 +332,8 @@ High
 <small>(aka Can be used as ESP)</small>
 
 <small>Instructions: CTRL+F8</small>
+```
+{
+    "DFFlagDebugEnableInterpolationVisualizer": "True"
+}
+```
