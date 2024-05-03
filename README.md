@@ -1,8 +1,8 @@
 # FastFlags List
 
 ## Info
-<font color='red'>**143 Currently Listed**</font>  
-Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
+<font color="yellow">**143 Currently Listed**</font>  
+**Textures not working right now. Because Roblox removed "FFlagMSRefactor5"**
 
 ## List Navigation
 • [Lightning Technologies](#lightning-technologies)
@@ -18,6 +18,8 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
 • [Physics](#physics)  
 
 • [Other FFlags](#other-fflags)
+
+• [FFLAG Combinations]()
 
 ══════⊹⊱≼≽⊰⊹══════
 
