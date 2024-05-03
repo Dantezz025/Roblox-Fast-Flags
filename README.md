@@ -7,7 +7,7 @@
 
 ---
 
-![# WARNING](https://img.shields.io/badge/WARNING-red)
+![# WARNING](https://img.shields.io/badge/WARNING-red) ![# WARNING](https://img.shields.io/badge/WARNING-red)
 
 **Some Fast Flags Can Be Banable in certain games**
 
