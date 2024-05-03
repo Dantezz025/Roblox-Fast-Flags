@@ -153,10 +153,8 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
     "DFIntDebugFRMQualityLevelOverride": "1"
 }
 ```
-<center>
-### FRM Levels
-</center>
 
+### FRM Levels
 ```
 Low
 
