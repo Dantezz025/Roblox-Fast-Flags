@@ -540,3 +540,26 @@ High
     "DFIntCanHideGuiGroupId": "ID"
 }
 ```
+
+### Disable Fullscreen Title Bar
+```
+{
+    "FIntFullscreenTitleBarTriggerDelayMillis": "3600000"
+}
+```
+
+### Set Custom Font Size
+```
+{
+    "FIntFontSizePadding": "1"
+}
+```
+
+### Set Custom Kick Message Lenght
+```
+{
+    "FIntMaxKickMessageLength": "1"
+}
+```
+
+# Textures
