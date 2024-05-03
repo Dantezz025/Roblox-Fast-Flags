@@ -9,7 +9,7 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
 
 • [Rendering](#rendering-api)
 
-• [Graphics](#graphical-settings-&-More) 
+• [Graphics](#graphical-settings-&-more) 
 
 • [UI](#user-interface)  
 
@@ -17,7 +17,7 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
 
 • [Physics](#physics)  
 
-• [Other FFlags](other-fflags)
+• [Other FFlags](#other-fflags)
 
 ══════⊹⊱≼≽⊰⊹══════
 
