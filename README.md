@@ -356,3 +356,187 @@ High
 
 ### Buggy ZPlane Camera
 <small>aka Can be used as XRAY</small>
+```
+{
+    "FIntCameraFarZPlane": "1"
+}
+```
+
+### Xray
+<small>Some camera positions, will make textures transparent</small>
+```
+{
+    "DFIntCullFactorPixelThresholdMainViewHighQuality": "10000",
+    "DFIntCullFactorPixelThresholdMainViewLowQuality": "10000",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "10000",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "10000"
+}
+```
+
+# User Interface
+
+### Home Siderbar Text
+```
+{
+    "FFlagEnableNavBarLabels3": "True"
+}
+```
+
+### Revert New "Builder" Font
+```
+{
+    "FFlagEnableNewFontNameMappingABTest2": "False"
+}
+```
+
+### Revert spacing on errors
+```
+{
+    "FFlagErrorPromptResizesHeight": "False"
+}
+```
+
+### GUI Hiding Toggles
+```
+{
+    "FFlagUserShowGuiHideToggles": "True",
+    "GuiHidingApiSupport2": "True"
+}
+```
+
+### Darker Dark Theme
+```
+{
+    "FFlagLuaAppUseUIBloxColorPalettes1": "True",
+    "FFlagUIBloxUseNewThemeColorPalettes": "True"
+}
+```
+
+### Subscriptions Page
+```
+{
+    "FFlagLuaAppDevSubsEnabled": "True"
+}
+```
+
+### No Transparency V4 Menu (2023)
+```
+{
+    "FStringInGameMenuModernizationStickyBarForcedUserIds": "UserID"
+}
+```
+
+### Revert Old Report Menu
+```
+{
+    "FStringReportAbuseMenuRoactForcedUserIds": "null",
+    "FFlagEnableReportAbuseMenuRoactABTest2": "False",
+    "FFlagEnableReportAbuseMenuRoact2": "False",
+    "FFlagEnableReportAbuseMenuLayerOnV3": "False"
+}
+```
+
+### Custom MicroProfile Scale
+```
+{
+    "DFIntMicroProfilerDpiScaleOverride":  "100"
+}
+```
+
+### Hides gui
+```
+{
+    "FFlagDebugAdornsDisabled":  "True"
+}
+```
+
+### Dont Render UI
+```
+{
+    "FFlagDebugDontRenderUI": "True"
+}
+```
+
+### Dont Render Screen GUIs
+```
+{
+    "FFlagDebugDontRenderScreenGui": "True"
+}
+```
+
+### Enable Audio Controller
+```
+{
+    "FFlagTrackerLodControllerDebugUI": "True"
+}
+```
+
+### Disable Autocomplete
+```
+{
+    "FFlagEnableCommandAutocomplete": "False"
+}
+```
+
+### Chrome UI TopBar
+```
+{
+    "FFlagEnableInGameMenuChrome": "True",
+    "FFlagEnableReportAbuseMenuRoactABTest2": "True",
+    "FFlagChromeBetaFeature": "True",
+    "FFlagEnableInGameMenuChromeABTest2": "True"
+}
+```
+
+### Pin Chat on Chrome UI
+```
+{ "FFlagEnableChromePinnedChat":  "True" }
+```
+
+### Chrome UI Topbar Removal
+```
+{
+    "FFlagEnableInGameMenuChromeABTest2": "False",
+    "FFlagEnableReportAbuseMenuRoactABTest2": "False"
+}
+```
+
+### Disable Bubble Chat
+```
+{
+    "FFlagEnableBubbleChatFromChatService":  "False"
+}
+```
+
+### Disable Selfview
+```
+{
+    "FFlagCoreGuiTypeSelfViewPresent":  "False"
+}
+```
+
+### Remove VC Beta Badge
+```
+{
+    "FFlagVoiceBetaBadge": "False",
+    "FFlagTopBarUseNewBadge": "False",
+    "FFlagEnableBetaBadgeLearnMore": "False",
+    "FFlagBetaBadgeLearnMoreLinkFormview": "False",
+    "FFlagControlBetaBadgeWithGuac": "False",
+    "FStringVoiceBetaBadgeLearnMoreLink": "null"
+}
+```
+
+### Hide guis
+<small>Instructions: Replace "ID" with any group ID that you are in.</small>
+| Key combination | Action |
+| --------------- | ------ |
+| Ctrl + Shift + B | Toggles GUIs in 3D space (BillboardGuis, SurfaceGuis, etc) |
+| Ctrl + Shift + C | Toggles game-defined ScreenGuis |
+| Ctrl + Shift + G | Toggles Roblox CoreGuis |
+| Ctrl + Shift + N | Toggles player names, and other BillboardGuis that show up above a player |
+```
+{
+    "DFIntCanHideGuiGroupId": "ID"
+}
+```
