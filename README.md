@@ -131,3 +131,27 @@ Textures not working right now. Because Roblox removed "FFlagMSRefactor5"
     "FIntTerrainArraySliceSize": "4"
 }
 ```
+
+### Disable Shadows
+```
+{
+    "FIntRenderShadowIntensity": "0"
+}
+```
+
+### Preserve rendering quality with display setting
+```
+{
+    "DFFlagDisableDPIScale": "True"
+}
+```
+
+### Low Graphics Quality w/ Max Render Distance/FRM Quality Levels
+<small>Explanation: 1-6 Are low graphics, Above 6 are high graphics. Like the 1-21 graphics slider</small>
+```
+{
+    "DFIntDebugFRMQualityLevelOverride": "1"
+}
+```
+
+### <center>FRM Levels</center>
