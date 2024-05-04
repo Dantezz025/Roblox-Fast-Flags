@@ -1,5 +1,5 @@
 # FastFlags List
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]([https://opensource.org/licenses/MIT](https://github.com/Dantezz025/Roblox-Fast-Flags/blob/main/LICENSE))
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Dantezz025/Roblox-Fast-Flags/blob/main/LICENSE)
 # Info
 
 ![**143 Currently Listed**](https://img.shields.io/badge/143%20Currently%20Listed-yellow)
