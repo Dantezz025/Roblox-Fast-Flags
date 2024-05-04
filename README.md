@@ -702,6 +702,14 @@ High
 }
 ```
 
+### Walk Speed
+<small>aka SpeedHack | You need 144+ fps or it won't work</small>
+```
+{
+"FFlagDebugSimIntegrationStabilityTesting": true
+}
+```
+
 ### Random High Jumps
 <small>Video will be added soon</small>
 ```
