@@ -157,7 +157,7 @@
 ```
 
 ### Low Quallity Terrain Textures
-<small>4 for less quality 16, 32, 64 for higher quality</small>
+###### 4 for less quality 16, 32, 64 for higher quality
 ```
 {
     "FIntTerrainArraySliceSize": "4"
@@ -179,7 +179,7 @@
 ```
 
 ### Low Graphics Quality w/ Max Render Distance/FRM Quality Levels
-<small>Explanation: 1-6 Are low graphics, Above 6 are high graphics. Like the 1-21 graphics slider</small>
+###### Explanation: 1-6 Are low graphics, Above 6 are high graphics. Like the 1-21 graphics slider
 ```
 {
     "DFIntDebugFRMQualityLevelOverride": "1"
@@ -245,7 +245,7 @@ High
 ```
 
 ### Makes avatars shiny
-<small>[everything goes black on <3] [DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3</small>
+###### [everything goes black on <3] [DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3
 ```
 {
     "DFIntRenderClampRoughnessMax": "-640000000",
@@ -268,7 +268,7 @@ High
 ```
 
 ### Gray Sky
-<small>Only applies to games with the default skybox</small>
+###### Only applies to games with the default skybox
 ```
 {
     "FFlagDebugSkyGray": "True"
@@ -300,7 +300,7 @@ High
 ```
 
 ### Enable GPULightCulling
-<small>Combine with Lighting Attenuation for better vision</small>
+###### Combine with Lighting Attenuation for better vision
 ```
 {
     "FFlagFastGPULightCulling3": "True"
@@ -308,7 +308,7 @@ High
 ```
 
 ### Frame Buffer
-<small>Explnation: 0 makes white screen 1-3 makes other players have laggy movement, 4 is stable has better performance than 10 and less input lag</small>
+###### Explnation: 0 makes white screen 1-3 makes other players have laggy movement, 4 is stable has better performance than 10 and less input lag
 ```
 {
     "DFIntMaxFrameBufferSize": "4"
@@ -316,7 +316,7 @@ High
 ```
 
 ### High Quality Textures
-<small>[1-3]</small>
+###### [1-3]
 ```
 {
     "DFFlagTextureQualityOverrideEnabled": "True",
@@ -325,7 +325,7 @@ High
 ```
 
 ### Lower Quality Textures
-<small>[1-3]</small>
+###### [1-3]
 ```
 {
     "DFIntPerformanceControlTextureQualityBestUtility": "-1"
@@ -350,7 +350,7 @@ High
 ```
 
 ### Force MSAA
-<small>[0, 1, 2, 4, 8]</small>
+###### [0, 1, 2, 4, 8, 16]
 ```
 {
     "FIntDebugForceMSAASamples": "4"
@@ -358,17 +358,16 @@ High
 ```
 
 ### ShadowMap Bias
-<small>[Future & ShadowMap]</small>
+###### [Future & ShadowMap]
 ```
 {
     "FIntRenderShadowmapBias": "75"
 }
 ```
 
-### Enables Network Debug Tracker menu
-<small>(aka Can be used as ESP)</small>
+### Enables Network Debug Tracker menu <sup>a.k.a can be used as ESP</sup>
 
-<small>Instructions: CTRL+F8</small>
+###### Instructions: CTRL+F8
 ```
 {
     "DFFlagDebugEnableInterpolationVisualizer": "True"
@@ -376,7 +375,7 @@ High
 ```
 
 ### Humanoid Outline
-<small>Draws an outline around every part and every humanoid</small>
+###### Draws an outline around every part and every humanoid
 ```
 {
     "DFFlagDebugDrawBroadPhaseAABBs": "True"
@@ -384,15 +383,14 @@ High
 ```
 
 ### FFlag above but more complex
-<small>Draws an outline around every body part</small>
+###### Draws an outline around every body part
 ```
 {
     "DFFlagDebugDrawBvhNodes": "True"
 }
 ```
 
-### Buggy ZPlane Camera
-<small>aka Can be used as XRAY</small>
+### Buggy ZPlane Camera <sup>a.k.a xray</sup>
 ```
 {
     "FIntCameraFarZPlane": "1"
@@ -400,7 +398,7 @@ High
 ```
 
 ### Xray
-<small>Some camera positions, will make textures transparent</small>
+###### Some camera positions, will make textures transparent
 ```
 {
     "DFIntCullFactorPixelThresholdMainViewHighQuality": "10000",
@@ -695,15 +693,15 @@ High
 ```
 
 ### Adjust Hip Height Clamps
-<small>https://www.roblox.com/bundles/63/Mage-Animation-Package</small>
+###### https://www.roblox.com/bundles/63/Mage-Animation-Package
 ```
 {
     "DFIntHipHeightClamp": "-48"
 }
 ```
 
-### Walk Speed
-<small>aka SpeedHack | You need 144+ fps or it won't work</small>
+### Walk Speed <sup>a.k.a SpeedHack</sup>
+###### You need 144+ fps or it won't work</small>
 ```
 {
 "FFlagDebugSimIntegrationStabilityTesting": true
@@ -711,7 +709,6 @@ High
 ```
 
 ### Random High Jumps
-<small>Video will be added soon</small>
 ```
 {
     "FFlagSimAdaptiveTimesteppingDefault2": "True",
@@ -736,7 +733,7 @@ High
 ```
 
 ### No Animations
-<small>Stops the game from trying to replicate your animations in the server. You dont have animations in the server but you do for your client</small>
+###### Stops the game from trying to replicate your animations in the server. You dont have animations in the server but you do for your client
 ```
 {
     "DFIntReplicatorAnimationTrackLimitPerAnimator": "-1"
@@ -744,7 +741,7 @@ High
 ```
 
 ### Stick unanchored parts to you
-<small>- = up, + = down</small>
+###### - = up, + = down
 ```
 {
     "DFIntSolidFloorPercentForceApplication": "-1000",
@@ -753,16 +750,15 @@ High
 ```
 
 ### Max Raycast Distance
-<small>Raycasting is the use of intersection tests to solve problems in ROBLOX. The most common use of raycasting is to determine the first object intersected by a ray. This is done by casting a virtual ray from a certain point in a direction and determining the first surface it intersected with.
-Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip cam on 3</small>
+###### Raycasting is the use of intersection tests to solve problems in ROBLOX. The most common use of raycasting is to determine the first object intersected by a ray. This is done by casting a virtual ray from a certain point in a direction and determining the first surface it intersected with.
+Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip cam on 3
 ```
 {
     "DFIntRaycastMaxDistance": "3"
 }
 ```
 
-### Change DataSender Rate
-<small>aka dos not let you load games</small>
+### Change DataSender Rate <sup>a.k.a does not let you load games</sup>
 ```
 {
     "DFIntDataSenderRate": "-1"
@@ -784,7 +780,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Invisible 1
-<small>Stops the physics on your character froms sending to the server so your character doesn't move for the server. You can move on your client.</small>
+###### Stops the physics on your character froms sending to the server so your character doesn't move for the server. You can move on your client.
 ```
 {
     "DFIntS2PhysicsSenderRate": "-30"
@@ -792,7 +788,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Invisible 2
-<small>Locks your character's position on the server to (0, 0, 0), having the side effect of turning you invisible. This only affects the server and other clients, not you. server-sided things that rely on your position, like clicking to get tools, will not function. In some games these can be abusable.</small>
+###### Locks your character's position on the server to (0, 0, 0), having the side effect of turning you invisible. This only affects the server and other clients, not you. server-sided things that rely on your position, like clicking to get tools, will not function. In some games these can be abusable.
 ```
 {
     "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10"
@@ -800,7 +796,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Invisible 3 (BEST INVISIBLE)
-<small>Restricts the client from sending any physics-related information. This means other people can topple you over.</small>
+###### Restricts the client from sending any physics-related information. This means other people can topple you over.
 ```
 {
     "DFIntPhysicsSenderMaxBandwidthBps": "1",
@@ -828,7 +824,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Noclip
-<small>Adjust the value so you don't fall through the ground</small>
+###### Adjust the value so you don't fall through the ground
 ```
 {
         "DFFlagAssemblyExtentsExpansionStudHundredth": "-50"
@@ -836,7 +832,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Hip Height
-<small>Very controllable bounce, only works with negative values, 0 allows you to hover</small>
+###### Very controllable bounce, only works with negative values, 0 allows you to hover
 ```
 {
     "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
@@ -880,7 +876,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Surf the web inside of Roblox
-<small>Click the Beta badge or the 13+ badge to open the webview browser.</small>
+###### Click the Beta badge or the 13+ badge to open the webview browser.
 ```
 {
     "FFlagTopBarUseNewBadge": "True",
@@ -890,7 +886,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Sounds use physical velocity and become distorted
-<small><2017</small>
+###### 2017
 ```
 {
     "FFlagSoundsUsePhysicalVelocity": "True"
@@ -903,7 +899,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
     "FStringDebugShowFlagState": "FLAG_HERE"
 }
 ```
-<small>e.g</small>
+###### e.g
 ```
 {
     "FStringDebugShowFlagState": "DFIntTaskSchedulerTargetFps, ChannelName"
@@ -911,6 +907,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### MTU
+###### [Might Improve Ping]
 ```
 {
     "DFIntConnectionMTUSize": "MTU_HERE"
@@ -925,7 +922,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### No Internet Disconnect
-<small>You will still be kicked but the message wont show.</small>
+###### You will still be kicked but the message wont show.
 ```
 {
     "DFFlagDebugDisableTimeoutDisconnect": "True"
