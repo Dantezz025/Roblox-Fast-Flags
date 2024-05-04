@@ -930,7 +930,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Quick Game Launch
-<small>BUGGY</small>
+###### BUGGY
 ```
 {
     "FFlagEnableQuickGameLaunch": "True"
@@ -938,7 +938,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Allows you to change voice chat distance
-<small>default: [Min 7 Max 80]</small>
+###### default: [Min 7 Max 80]
 ```
 {
     "DFIntVoiceChatRollOffMinDistance": "7",
@@ -990,7 +990,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Verified Badge
-<small>Clientsided</small>
+###### Clientsided
 ```
 {
     "FStringWhitelistVerifiedUserId": "UserID"
@@ -998,7 +998,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Verified Badge on everyone
-<small>Clientsided</small>
+###### Clientsided
 ```
 {
     "FFlagOverridePlayerVerifiedBadge": "True"
@@ -1034,7 +1034,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Disable Dynamic Heads Animations
-<small>https://roblox.fandom.com/wiki/Dynamic_Head</small>
+###### https://roblox.fandom.com/wiki/Dynamic_Head
 ```
 {
     "DFIntAnimationLodFacsDistanceMin": "0",
@@ -1044,7 +1044,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Fail Safe Humanoid
-<small>gray avatars</small>
+###### gray avatars
 ```
 {
     "FFlagFailsafeHumanoid_3": "True"
@@ -1073,7 +1073,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Opt-Put Experience Language
-<small>Removes the Experience Language option in settings</small>
+###### Removes the Experience Language option in settings
 ```
 {
     "FIntV1MenuLanguageSelectionFeaturePerMillageRollout": "0"
@@ -1088,7 +1088,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Lets you change the zoom out limit
-<small>Only applies to games that has not changed the default zoom limit</smalL>
+###### Only applies to games that has not changed the default zoom limit
 ```
 {
     "FIntCameraMaxZoomDistance": "9999"
@@ -1110,7 +1110,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Mess with voice chat volume
-<small>default 1000</small>
+###### default 1000
 ```
 {
     "DFIntVoiceChatVolumeThousandths": "100000"
@@ -1118,7 +1118,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Removes the head roll limit for face tracking
-<small>Removes the head roll limit for face tracking</small>
+###### Removes the head roll limit for face tracking
 ```
 {
     "DFIntAvatarFaceChatHeadRollLimitDegrees": "360"
@@ -1183,7 +1183,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Self Explanatory 4
-<small>Disable Drag Detectors</small>
+###### Disable Drag Detectors
 ```
 {
     "FFlagDragDetectors1": "False"
@@ -1191,7 +1191,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Self Explanatory 5
-<small>Disabe CTM Climbin</small>
+###### Disabe CTM Climbin
 ```
 {
     "FFlagUserClickToMoveSupportAgentCanClimb2": "False"
@@ -1199,7 +1199,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ```
 
 ### Self Explanatory 6
-<small>Disabe Feedback Button in ESC</small>
+###### Disabe Feedback Button in ESC
 ```
 {
     "FFlagDisableFeedbackSoothsayerCheck": "False"
