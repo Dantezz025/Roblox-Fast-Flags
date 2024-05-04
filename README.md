@@ -793,8 +793,6 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 
 ### Invisible 2
 <small>Locks your character's position on the server to (0, 0, 0), having the side effect of turning you invisible. This only affects the server and other clients, not you. server-sided things that rely on your position, like clicking to get tools, will not function. In some games these can be abusable.</small>
-
-<small>Working in Counter Blox
 ```
 {
     "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10"
