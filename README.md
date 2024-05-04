@@ -811,7 +811,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ### Clientsided Invisible
 ```
 {
-    "FIntParallelDynamicPartsFastClusterBatchSize": "-1",
+    "FIntParallelDynamicPartsFastClusterBatchSize": "-1"
 }
 ```
 
