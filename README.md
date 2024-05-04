@@ -45,7 +45,7 @@
 
 ══════⊹⊱≼≽⊰⊹══════
 
-# Lightning Technologies
+<h1 align="center">Lightning Technologies</h2>
 
 ### Voxel Lighting (Phase 1)
 ```
@@ -68,7 +68,7 @@
 }
 ```
 
-# Rendering API
+<h1 align="center">Rendering API</h2>
 
 ### MacOS Only
 ```
@@ -107,7 +107,7 @@
 }
 ```
 
-# Graphical Settings & More
+<h1 align="center">Graphical Settings & More</h2>
 
 ### Draws a circle under avatars
 ```
@@ -405,7 +405,7 @@ High
 }
 ```
 
-# User Interface
+<h1 align="center">User Interface</h2>
 
 ### Home Siderbar Text
 ```
@@ -594,7 +594,7 @@ High
 }
 ```
 
-# Textures
+<h1 align="center">Textures</h2>
 
 ### Fix Textures
 ```
@@ -649,7 +649,7 @@ High
 }
 ```
 
-# Physics
+<h1 align="center">Physics</h2>
 
 ### N/A
 ```
@@ -843,7 +843,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 }
 ```
 
-# Other FFlags
+<h1 align="center">Other FFlags</h2>
 
 ### Disable In-game Advertisements
 ```
@@ -1203,7 +1203,7 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 }
 ```
 
-# Fast Flag Combinations
+<h1 align="center">Fast Flag Combinations</h2>
 
 ### Low Graphics - High Render Distance
 ```
