@@ -1,5 +1,5 @@
 # FastFlags List
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Info
 
 ![**143 Currently Listed**](https://img.shields.io/badge/143%20Currently%20Listed-yellow)
