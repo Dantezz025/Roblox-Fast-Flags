@@ -1,6 +1,5 @@
 # FastFlags List
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Dantezz025/Roblox-Fast-Flags/blob/main/LICENSE) [![Terms]([https://img.shields.io/badge/License-MIT-yellow.svg](https://img.shields.io/badge/Of%20Use-brightgreen?label=Terms
-))](https://github.com/Dantezz025/Roblox-Fast-Flags/blob/main/TERMS.md) [![Discord](https://img.shields.io/discord/1099468797410283540?logo=discord&logoColor=white&label=discord&color=4d3dff)](https://discord.gg/CBeXK6PMr7) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Dantezz025/Roblox-Fast-Flags/blob/main/LICENSE) [![Terms Of Use](https://img.shields.io/badge/Of%20Use-brightgreen?label=Terms)]([https://github.com/Dantezz025/Roblox-Fast-Flags/blob/main/LICENSE](https://github.com/Dantezz025/Roblox-Fast-Flags/blob/main/TERMS.md)) [![Discord](https://img.shields.io/discord/1099468797410283540?logo=discord&logoColor=white&label=discord&color=4d3dff)](https://discord.gg/CBeXK6PMr7)
 # Info
 
 ![**143 Currently Listed**](https://img.shields.io/badge/143%20Currently%20Listed-yellow)
