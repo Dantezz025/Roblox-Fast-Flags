@@ -8,7 +8,7 @@
 
 **Textures not working right now. Because Roblox removed "FFlagMSRefactor5"**
 
-**Walk Speed <sup>aka SpeedHack</sup> not working right now. Because roblox removed this fast flag, because of exploiters
+**Walk Speed** <sup>aka SpeedHack</sup> **not working right now. Because roblox removed this fast flag, because of exploiters**
 
 ---
 
