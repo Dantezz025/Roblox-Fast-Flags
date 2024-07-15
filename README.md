@@ -1264,3 +1264,12 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 "FFlagDebugDisableTelemetryV2Stat": true
 }
 ```
+
+### Desync FFlag
+```
+{
+    "DFFlagPhysicsSkipNonRealTimeHumanoidForceCalc2": "False",
+    "DFIntS2PhysicsSenderRate": "3",
+    "DFIntTaskSchedulerTargetFps": 5588562
+}
+```
