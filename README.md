@@ -724,6 +724,54 @@ High
 }
 ```
 
+### Desync FFlag
+```
+{
+    "DFFlagPhysicsSkipNonRealTimeHumanoidForceCalc2": "False",
+    "DFIntS2PhysicsSenderRate": "3",
+    "DFIntTaskSchedulerTargetFps": 5588562
+}
+```
+
+### Low Gravity 1
+###### FFlagDebugSimDefaultPrimalSolver' : True, # Enable the new simulation engine or whatever it is
+###### DFIntDebugSimPrimalLineSearch' : 1, # A poor man's gravity/flight [Default 100] (above 0 is low gravity | below 1 to -1 is will make gameplay weird when it comes to physics | below -1 is a poor mans fly (not really useable)
+```
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "3"
+}
+```
+
+### Low Gravity 2
+###### this is more buggy
+```
+{
+  "DFIntDebugSimPrimalPreconditioner": "100",
+  "DFIntDebugSimPrimalPreconditionerMinExp": "100",
+  "DFIntDebugSimPrimalNewtonIts": "1",
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "DFIntDebugSimPrimalWarmstartVelocity": "-150",
+  "DFIntDebugSimPrimalWarmstartForce": "-775",
+  "DFIntDebugSimPrimalToleranceInv": "1"
+}
+```
+
+### Backwards SpeedHax
+###### Bugginess and Speed depends on the value of DFIntDebugSimPrimalWarmstartForce values i recommend are 775 and the value i put.
+###### Also for DFIntDebugSimPrimalWarmstartVelocity probably use value 150 but its kinda hard to do it and control
+```
+{
+  "DFIntDebugSimPrimalNewtonIts": "1",
+  "DFIntDebugSimPrimalPreconditioner": "69",
+  "DFIntDebugSimPrimalPreconditionerMinExp": "69",
+  "DFIntDebugSimPrimalToleranceInv": "1",
+  "DFIntDebugSimPrimalWarmstartForce": "-885",
+  "DFIntDebugSimPrimalWarmstartVelocity": "-350",
+  "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
+
 ### Drunk
 ```
 {
@@ -1262,14 +1310,5 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 "FFlagDebugDisableTelemetryV2Counter": true,
 "FFlagDebugDisableTelemetryV2Event": true,
 "FFlagDebugDisableTelemetryV2Stat": true
-}
-```
-
-### Desync FFlag
-```
-{
-    "DFFlagPhysicsSkipNonRealTimeHumanoidForceCalc2": "False",
-    "DFIntS2PhysicsSenderRate": "3",
-    "DFIntTaskSchedulerTargetFps": 5588562
 }
 ```
