@@ -733,6 +733,13 @@ High
 }
 ```
 
+### Tool Desyncs
+```
+{
+    "DFIntSimBlockLargeLocalToolWeldManipulationsThreshold": "-1"
+}
+```
+
 ### Low Gravity 1
 ###### FFlagDebugSimDefaultPrimalSolver' : True, # Enable the new simulation engine or whatever it is
 ###### DFIntDebugSimPrimalLineSearch' : 1, # A poor man's gravity/flight [Default 100] (above 0 is low gravity | below 1 to -1 is will make gameplay weird when it comes to physics | below -1 is a poor mans fly (not really useable)
@@ -769,6 +776,24 @@ High
   "DFIntDebugSimPrimalWarmstartForce": "-885",
   "DFIntDebugSimPrimalWarmstartVelocity": "-350",
   "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
+
+### Network Ownership
+### Better network ownership of parts. This might get you banned in some games with anticheats (Limbobbia)
+```
+{
+    "DFIntMinClientSimulationRadius": "2147000000",
+    "DFIntMinimalSimRadiusBuffer": "2147000000",
+    "DFIntMaxClientSimulationRadius": "2147000000"
+}
+```
+
+### Freeze
+```
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "0"
 }
 ```
 
@@ -872,11 +897,26 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 }
 ```
 
-### Noclip
+### Noclip (Probably Best One)
 ###### Adjust the value so you don't fall through the ground
 ```
 {
         "DFFlagAssemblyExtentsExpansionStudHundredth": "-50"
+}
+```
+
+### Noclip 2 
+```
+{
+    "DFIntSimBroadPhasePairCountMax": "50"
+}
+```
+
+### Noclip 3
+```
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalStiffness": "0"
 }
 ```
 
@@ -1203,6 +1243,15 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 }
 ```
 
+### Don't touch walls!!!
+```
+{
+    "DFIntDebugSimPrimalNewtonIts": "-2147483647",
+    "DFIntDebugSimPrimalToleranceInv": "-2147483647",
+    "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
+
 ### Self Explanatory 1
 ```
 {
@@ -1310,5 +1359,27 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 "FFlagDebugDisableTelemetryV2Counter": true,
 "FFlagDebugDisableTelemetryV2Event": true,
 "FFlagDebugDisableTelemetryV2Stat": true
+}
+```
+
+### Absoulutely kills your game graphics
+```
+{
+    "FFlagDisablePostFx": "True",
+    "FIntDebugTextureManagerSkipMips": "-1",
+    "DFIntTextureCompositorActiveJobs": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistance": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL23": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL34": "0",
+    "DFIntDebugFRMQualityLevelOverride": "1",
+    "DFFlagDebugPauseVoxelizer": "True",
+    "DFFlagDebugRenderForceTechnologyVoxel": "True",
+    "FFlagGlobalWindRendering": "False",
+    "FIntRenderShadowIntensity": "0",
+    "FIntRenderShadowmapBias": "1",
+    "FIntDebugForceMSAASamples": "-1",
+    "FIntFRMMinGrassDistance": "0",
+    "DFIntTextureQualityOverride": "1"
 }
 ```
