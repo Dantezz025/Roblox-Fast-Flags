@@ -873,8 +873,11 @@ Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip 
 ###### Restricts the client from sending any physics-related information. This means other people can topple you over.
 ```
 {
-    "DFIntPhysicsSenderMaxBandwidthBps": "1",
-    "DFIntPhysicsSenderMaxBandwidthBpsScaling": "0"
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFFlagDebugSimPrimalFeedback": "True",
+    "DFIntDebugSimPrimalStiffnessMax": "0",
+    "DFIntDebugSimPrimalStiffnessMin": "0",
+    "DFIntMaximumFreefallMoveTimeInTenths": "1000"
 }
 ```
 
