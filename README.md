@@ -780,7 +780,7 @@ High
 ```
 
 ### Network Ownership
-### Better network ownership of parts. This might get you banned in some games with anticheats (Limbobbia)
+###### Better network ownership of parts. This might get you banned in some games with anticheats (Limbobbia)
 ```
 {
     "DFIntMinClientSimulationRadius": "2147000000",
@@ -825,7 +825,7 @@ High
 
 ### Max Raycast Distance
 ###### Raycasting is the use of intersection tests to solve problems in ROBLOX. The most common use of raycasting is to determine the first object intersected by a ray. This is done by casting a virtual ray from a certain point in a direction and determining the first surface it intersected with.
-Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip cam on 3
+###### Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip cam on 3
 ```
 {
     "DFIntRaycastMaxDistance": "3"
