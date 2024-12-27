@@ -655,6 +655,15 @@ High
 
 <h1 align="center">Physics</h2>
 
+### Fps Unlocker (NEW)
+```
+{
+    "DFIntTaskSchedulerTargetFps": "29383" ,
+    "FFlagGameBasicSettingsFramerateCap5": "False" ,
+    "FFlagTaskSchedulerLimitTargetFpsTo2402": "False"
+}
+```
+
 ### N/A
 ```
 {
