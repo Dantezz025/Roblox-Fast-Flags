@@ -2,6 +2,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Dantezz025/Roblox-Fast-Flags/blob/main/LICENSE) [![Terms Of Use](https://img.shields.io/badge/Of%20Use-brightgreen?label=Terms)](https://github.com/Dantezz025/Roblox-Fast-Flags/blob/main/TERMS.md)
 
+<h1 align="center">Contact Me</h2>
+
+You can reach me via telegram: dantezz95
+
 <h1 align="center">Info</h2>
 
 ![**143 Currently Listed**](https://img.shields.io/badge/143%20Currently%20Listed-yellow)
