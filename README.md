@@ -5,6 +5,7 @@
 <h1 align="center">Contact Me</h2>
 
 You can reach me via telegram: dantezz95
+
 If you have any fflag related questions join to the linked dc server and go to the fflag help forum.
 
 <h1 align="center">Info</h2>
@@ -43,8 +44,6 @@ If you have any fflag related questions join to the linked dc server and go to t
 • [Graphics](#graphical-settings--more)
 
 • [UI](#user-interface)  
-
-• [Textures](#textures)  
 
 • [Physics](#physics)  
 
