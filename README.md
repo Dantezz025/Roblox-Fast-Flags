@@ -8,7 +8,7 @@ You can reach me via telegram: dantezz95
 
 <h1 align="center">Info</h2>
 
-161 currently listed
+- 161 currently listed
 
 **Textures not working right now. Because Roblox removed "FFlagMSRefactor5"**
 
