@@ -12,6 +12,8 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 - 155 currently listed
 
+- Last update on 10.02.2025 | If there's any outdated fflags, please open pull request/issues and let me know what's not working
+
 - **Walk Speed** <sup>aka SpeedHack</sup> **not working right now. Because roblox removed this fast flag, because of exploiters**
 
 ---
