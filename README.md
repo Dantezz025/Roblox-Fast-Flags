@@ -686,6 +686,8 @@ High
     "DFFlagPhysicsSkipNonRealTimeHumanoidForceCalc2": "False",
     "DFIntS2PhysicsSenderRate": "3",
     "DFIntTaskSchedulerTargetFps": 5588562
+    "FFlagGameBasicSettingsFramerateCap5": "False" ,
+    "FFlagTaskSchedulerLimitTargetFpsTo2402": "False"
 }
 ```
 
