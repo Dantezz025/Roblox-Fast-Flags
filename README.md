@@ -8,7 +8,7 @@ You can reach me via telegram: dantezz95
 
 <h1 align="center">Info</h2>
 
-![**143 Currently Listed**](https://img.shields.io/badge/143%20Currently%20Listed-yellow)
+161 currently listed
 
 **Textures not working right now. Because Roblox removed "FFlagMSRefactor5"**
 
