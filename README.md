@@ -10,11 +10,9 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 <h1 align="center">Info</h2>
 
-- 155 currently listed
+- 154 currently listed
 
 - Last update on 10.02.2025 | If there's any outdated fflags, please open pull request/issues and let me know what's not working
-
-- **Walk Speed** <sup>aka SpeedHack</sup> **not working right now. Because roblox removed this fast flag, because of exploiters**
 
 ---
 
@@ -656,14 +654,6 @@ High
 ```
 {
     "DFIntHipHeightClamp": "-48"
-}
-```
-
-### Walk Speed <sup>a.k.a SpeedHack</sup>
-###### You need 144+ fps or it won't work</small>
-```
-{
-"FFlagDebugSimIntegrationStabilityTesting": true
 }
 ```
 
