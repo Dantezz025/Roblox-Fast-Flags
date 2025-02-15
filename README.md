@@ -10,9 +10,9 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 <h1 align="center">Info</h2>
 
-- 154 currently listed
+- 150 currently listed
 
-- Last update on 10.02.2025 | If there's any outdated fflags, please open pull request/issues and let me know what's not working
+- Last update on 15.02.2025 | If there's any outdated fflags, please open pull request/issues and let me know what's not working
 
 ---
 
@@ -181,46 +181,12 @@ If you have any fflag related questions join to the linked dc server and go to t
 }
 ```
 
-### Low Graphics Quality w/ Max Render Distance/FRM Quality Levels
-###### Explanation: 1-6 Are low graphics, Above 6 are high graphics. Like the 1-21 graphics slider
+### Low Graphics - High Render Distance
 ```
 {
-    "DFIntDebugFRMQualityLevelOverride": "1"
-}
-```
-
-### FRM Levels
-```
-Low
-
-1 = 3
-2 = 2
-3 = 6
-
-High
-
-4 = 7
-5 = 11
-6 = 14
-7 = 15 
-8 = 17
-9 = 18
-10 = 21
-```
-
-### 21 Graphics Quality Slider
-```
-{
-    "FFlagCommitToGraphicsQualityFix": "True",
-    "FFlagFixGraphicsQuality": "True"
-}
-```
-
-### Low Render Distance
-[FRM](#frm-levels)
-```
-{
-    "DFIntDebugRestrictGCDistance": "1"
+"DFFlagDebugRenderForceTechnologyVoxel": true,
+"DFIntDebugFRMQualityLevelOverride": 1,
+"FIntRenderShadowIntensity": 0
 }
 ```
 
@@ -365,15 +331,6 @@ High
 ```
 {
     "FIntRenderShadowmapBias": "75"
-}
-```
-
-### Enables Network Debug Tracker menu <sup>a.k.a can be used as ESP</sup>
-
-###### Instructions: CTRL+F8
-```
-{
-    "DFFlagDebugEnableInterpolationVisualizer": "True"
 }
 ```
 
@@ -677,9 +634,17 @@ High
 {
     "DFFlagPhysicsSkipNonRealTimeHumanoidForceCalc2": "False",
     "DFIntS2PhysicsSenderRate": "3",
-    "DFIntTaskSchedulerTargetFps": 5588562
+    "DFIntTaskSchedulerTargetFps": 5588562,
     "FFlagGameBasicSettingsFramerateCap5": "False" ,
     "FFlagTaskSchedulerLimitTargetFpsTo2402": "False"
+}
+```
+
+### Ultimate Desync
+```
+{
+    "DFIntS2PhysicsSenderRate": "1", 
+    "FIntPGSAngularDampingPermilPersecond": "0" 
 }
 ```
 
@@ -690,42 +655,11 @@ High
 }
 ```
 
-### Low Gravity 1
-###### FFlagDebugSimDefaultPrimalSolver' : True, # Enable the new simulation engine or whatever it is
-###### DFIntDebugSimPrimalLineSearch' : 1, # A poor man's gravity/flight [Default 100] (above 0 is low gravity | below 1 to -1 is will make gameplay weird when it comes to physics | below -1 is a poor mans fly (not really useable)
+### Increase walking/run speed
+###### Working in some games, one of them "Phantom Forces". Fast Flag just making you slightly faster
 ```
 {
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "DFIntDebugSimPrimalLineSearch": "3"
-}
-```
-
-### Low Gravity 2
-###### this is more buggy
-```
-{
-  "DFIntDebugSimPrimalPreconditioner": "100",
-  "DFIntDebugSimPrimalPreconditionerMinExp": "100",
-  "DFIntDebugSimPrimalNewtonIts": "1",
-  "FFlagDebugSimDefaultPrimalSolver": "True",
-  "DFIntDebugSimPrimalWarmstartVelocity": "-150",
-  "DFIntDebugSimPrimalWarmstartForce": "-775",
-  "DFIntDebugSimPrimalToleranceInv": "1"
-}
-```
-
-### Backwards SpeedHax
-###### Bugginess and Speed depends on the value of DFIntDebugSimPrimalWarmstartForce values i recommend are 775 and the value i put.
-###### Also for DFIntDebugSimPrimalWarmstartVelocity probably use value 150 but its kinda hard to do it and control
-```
-{
-  "DFIntDebugSimPrimalNewtonIts": "1",
-  "DFIntDebugSimPrimalPreconditioner": "69",
-  "DFIntDebugSimPrimalPreconditionerMinExp": "69",
-  "DFIntDebugSimPrimalToleranceInv": "1",
-  "DFIntDebugSimPrimalWarmstartForce": "-885",
-  "DFIntDebugSimPrimalWarmstartVelocity": "-350",
-  "FFlagDebugSimDefaultPrimalSolver": "True"
+    "DFIntDebugSimPhysicsSteppingMethodOverride": "10000000"
 }
 ```
 
@@ -761,15 +695,6 @@ High
 ```
 {
     "DFIntReplicatorAnimationTrackLimitPerAnimator": "-1"
-}
-```
-
-### Stick unanchored parts to you
-###### - = up, + = down
-```
-{
-    "DFIntSolidFloorPercentForceApplication": "-1000",
-    "DFIntNonSolidFloorPercentForceApplication": "-5000"
 }
 ```
 
@@ -890,6 +815,23 @@ High
 
 <h1 align="center">Other FFlags</h2>
 
+### Custom Disconnect Message
+```
+{
+    "FFlagReconnectDisabled": "True",
+    "FStringReconnectDisabledReason": "You're stupid and I hate you"
+}
+```
+
+### Voice Chat Distance
+###### default: [Min 7 Max 80]
+```
+{
+    "DFIntVoiceChatRollOffMinDistance": "7",
+    "DFIntVoiceChatRollOffMaxDistance": "80"
+}
+```
+
 ### Disable In-game Advertisements
 ```
 {
@@ -941,6 +883,7 @@ High
     "FStringDebugShowFlagState": "FLAG_HERE"
 }
 ```
+
 ###### e.g
 ```
 {
@@ -1258,15 +1201,6 @@ High
 ```
 
 <h1 align="center">Fast Flag Combinations</h2>
-
-### Low Graphics - High Render Distance
-```
-{
-"DFFlagDebugRenderForceTechnologyVoxel": true,
-"DFIntDebugFRMQualityLevelOverride": 1,
-"FIntRenderShadowIntensity": 0
-}
-```
 
 ### Lower Ping
 ```
