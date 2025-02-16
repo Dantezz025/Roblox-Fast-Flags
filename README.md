@@ -10,9 +10,9 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 <h1 align="center">Info</h2>
 
-- 150 currently listed
+- 149 currently listed
 
-- Last update on 15.02.2025 | If there's any outdated fflags, please open pull request/issues and let me know what's not working
+- Last update on 16.02.2025 | If there's any outdated fflags, please open pull request/issues and let me know what's not working
 
 ---
 
@@ -1025,14 +1025,6 @@ If you have any fflag related questions join to the linked dc server and go to t
     "DFIntAnimationLodFacsDistanceMin": "0",
     "DFIntAnimationLodFacsDistanceMax": "0",
     "DFIntAnimationLodFacsVisibilityDenominator": "0"
-}
-```
-
-### Fail Safe Humanoid
-###### gray avatars
-```
-{
-    "FFlagFailsafeHumanoid_3": "True"
 }
 ```
 
