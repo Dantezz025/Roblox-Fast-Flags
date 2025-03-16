@@ -806,13 +806,6 @@ If you have any fflag related questions join to the linked dc server and go to t
 }
 ```
 
-### Wallglide
-```
-{
-    "DFIntUnstickForceAttackInTenths": "-4"
-}
-```
-
 <h1 align="center">Other FFlags</h2>
 
 ### Custom Disconnect Message
