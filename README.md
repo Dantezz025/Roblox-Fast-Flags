@@ -606,14 +606,6 @@ If you have any fflag related questions join to the linked dc server and go to t
 }
 ```
 
-### Adjust Hip Height Clamps
-###### https://www.roblox.com/bundles/63/Mage-Animation-Package
-```
-{
-    "DFIntHipHeightClamp": "-48"
-}
-```
-
 ### Random High Jumps
 ```
 {
