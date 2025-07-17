@@ -189,9 +189,9 @@ If you have any fflag related questions join to the linked dc server and go to t
 ### Low Graphics - High Render Distance
 ```json
 {
-"DFFlagDebugRenderForceTechnologyVoxel": true,
-"DFIntDebugFRMQualityLevelOverride": 1,
-"FIntRenderShadowIntensity": 0
+    "DFFlagDebugRenderForceTechnologyVoxel": true,
+    "DFIntDebugFRMQualityLevelOverride": 1,
+    "FIntRenderShadowIntensity": 0
 }
 ```
 
@@ -1194,47 +1194,47 @@ If you have any fflag related questions join to the linked dc server and go to t
 ### Lower Ping
 ```json
 {
-"DFIntConnectionMTUSize": 900,
-"FIntRakNetResendBufferArrayLength": "128",
-"FFlagOptimizeNetwork": "True",
-"FFlagOptimizeNetworkRouting": "True",
-"FFlagOptimizeNetworkTransport": "True",
-"FFlagOptimizeServerTickRate": "True",
-"DFIntServerPhysicsUpdateRate": "60",
-"DFIntServerTickRate": "60",
-"DFIntRakNetResendRttMultiple": "1",
-"DFIntRaknetBandwidthPingSendEveryXSeconds": "1",
-"DFIntOptimizePingThreshold": "50",
-"DFIntPlayerNetworkUpdateQueueSize": "20",
-"DFIntPlayerNetworkUpdateRate": "60",
-"DFIntNetworkPrediction": "120",
-"DFIntNetworkLatencyTolerance": "1",
-"DFIntMinimalNetworkPrediction": "0.1"
+    "DFIntConnectionMTUSize": 900,
+    "FIntRakNetResendBufferArrayLength": "128",
+    "FFlagOptimizeNetwork": "True",
+    "FFlagOptimizeNetworkRouting": "True",
+    "FFlagOptimizeNetworkTransport": "True",
+    "FFlagOptimizeServerTickRate": "True",
+    "DFIntServerPhysicsUpdateRate": "60",
+    "DFIntServerTickRate": "60",
+    "DFIntRakNetResendRttMultiple": "1",
+    "DFIntRaknetBandwidthPingSendEveryXSeconds": "1",
+    "DFIntOptimizePingThreshold": "50",
+    "DFIntPlayerNetworkUpdateQueueSize": "20",
+    "DFIntPlayerNetworkUpdateRate": "60",
+    "DFIntNetworkPrediction": "120",
+    "DFIntNetworkLatencyTolerance": "1",
+    "DFIntMinimalNetworkPrediction": "0.1"
 }
 ```
 
 ### Boost FPS (Comfort To Play)
 ```json
 {
-"DFIntCSGLevelOfDetailSwitchingDistance": 250,
-"DFIntCSGLevelOfDetailSwitchingDistanceL12": 500,
-"DFIntCSGLevelOfDetailSwitchingDistanceL23": 750,
-"DFIntCSGLevelOfDetailSwitchingDistanceL34": 1000,
-"DFIntTextureQualityOverride": 1,
-"FFlagDisablePostFx": true
+    "DFIntCSGLevelOfDetailSwitchingDistance": 250,
+    "DFIntCSGLevelOfDetailSwitchingDistanceL12": 500,
+    "DFIntCSGLevelOfDetailSwitchingDistanceL23": 750,
+    "DFIntCSGLevelOfDetailSwitchingDistanceL34": 1000,
+    "DFIntTextureQualityOverride": 1,
+    "FFlagDisablePostFx": true
 }
 ```
 
 ### Boost FPS
 ```json
 {
-"FFlagDebugDisableTelemetryEphemeralCounter": true,
-"FFlagDebugDisableTelemetryEphemeralStat": true,
-"FFlagDebugDisableTelemetryEventIngest": true,
-"FFlagDebugDisableTelemetryPoint": true,
-"FFlagDebugDisableTelemetryV2Counter": true,
-"FFlagDebugDisableTelemetryV2Event": true,
-"FFlagDebugDisableTelemetryV2Stat": true
+    "FFlagDebugDisableTelemetryEphemeralCounter": true,
+    "FFlagDebugDisableTelemetryEphemeralStat": true,
+    "FFlagDebugDisableTelemetryEventIngest": true,
+    "FFlagDebugDisableTelemetryPoint": true,
+    "FFlagDebugDisableTelemetryV2Counter": true,
+    "FFlagDebugDisableTelemetryV2Event": true,
+    "FFlagDebugDisableTelemetryV2Stat": true
 }
 ```
 
