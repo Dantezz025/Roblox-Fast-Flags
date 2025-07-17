@@ -805,6 +805,13 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 <h1 align="center">Other FFlags</h2>
 
+### Anti No Wifi Kick
+```
+{
+    "DFFlagDebugDisableTimeoutDisconnect" : "True"
+}
+```
+
 ### Custom Disconnect Message
 ```
 {
