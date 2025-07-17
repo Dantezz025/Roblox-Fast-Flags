@@ -59,21 +59,21 @@ If you have any fflag related questions join to the linked dc server and go to t
 <h1 align="center">Lightning Technologies</h2>
 
 ### Voxel Lighting (Phase 1)
-```
+```json
 {
     "DFFlagDebugRenderForceTechnologyVoxel": "True"
 }
 ```
 
 ### Shadowmap Lighting (Phase 2)
-```
+```json
 {
     "FFlagDebugForceFutureIsBrightPhase2": "True"
 }
 ```
 
 ### Future Lighting (Phase 3)
-```
+```json
 {
     "FFlagDebugForceFutureIsBrightPhase3": "True"
 }
@@ -82,14 +82,14 @@ If you have any fflag related questions join to the linked dc server and go to t
 <h1 align="center">Rendering API</h2>
 
 ### MacOS Only
-```
+```json
 {
     "FFlagDebugGraphicsPreferMetal": "True"
 }
 ```
 
 ### Vulkan
-```
+```json
 {
     "FFlagDebugGraphicsDisableDirect3D11": "True",
     "FFlagDebugGraphicsPreferVulkan": "True"
@@ -97,7 +97,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### OpenGL
-```
+```json
 {
     "FFlagDebugGraphicsDisableDirect3D11": "True",
     "FFlagDebugGraphicsPreferOpenGL": "True"
@@ -105,14 +105,14 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Direct X 10
-```
+```json
 {
     "FFlagDebugGraphicsPreferD3D11FL10": "True"
 }
 ```
 
 ### Direct X 11
-```
+```json
 {
     "FFlagDebugGraphicsPreferD3D11": "True"
 }
@@ -121,7 +121,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 <h1 align="center">Graphical Settings & More</h2>
 
 ### Draws a circle under avatars
-```
+```json
 {
     "FFlagDebugAvatarChatVisualization": "True",
     "FFlagEnableInGameMenuChromeABTest2": "False"
@@ -129,7 +129,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### HyperThreading
-```
+```json
 {
     "FFlagDebugCheckRenderThreading": "True",
     "FFlagRenderDebugCheckThreading2": "True"
@@ -137,28 +137,28 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Maximum Threads
-```
+```json
 {
     "FIntRuntimeMaxNumOfThreads": "2400"
 }
 ```
 
 ### Minimum Threads
-```
+```json
 {
     "FIntTaskSchedulerThreadMin": "3"
 }
 ```
 
 ### Smoother Terrain
-```
+```json
 {
     "FFlagDebugRenderingSetDeterministic": "True"
 }
 ```
 
 ### Graphics Quality Level
-```
+```json
 {
     "FIntRomarkStartWithGraphicQualityLevel": "1"
 }
@@ -166,28 +166,28 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Low Quallity Terrain Textures
 ###### 4 for less quality 16, 32, 64 for higher quality
-```
+```json
 {
     "FIntTerrainArraySliceSize": "4"
 }
 ```
 
 ### Disable Shadows
-```
+```json
 {
     "FIntRenderShadowIntensity": "0"
 }
 ```
 
 ### Preserve rendering quality with display setting
-```
+```json
 {
     "DFFlagDisableDPIScale": "True"
 }
 ```
 
 ### Low Graphics - High Render Distance
-```
+```json
 {
 "DFFlagDebugRenderForceTechnologyVoxel": true,
 "DFIntDebugFRMQualityLevelOverride": 1,
@@ -196,7 +196,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Disable Wind
-```
+```json
 {
     "FFlagGlobalWindRendering": "False",
     "FFlagGlobalWindActivated": "False"
@@ -204,7 +204,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Limits Light Updates
-```
+```json
 {
     "FIntRenderLocalLightUpdatesMax": "8",
     "FIntRenderLocalLightUpdatesMin": "6"
@@ -212,7 +212,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Disables fade in and fade out animation every light update
-```
+```json
 {
     "FIntRenderLocalLightFadeInMs": "0"
 }
@@ -220,7 +220,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Makes avatars shiny
 ###### [everything goes black on <3] [DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3
-```
+```json
 {
     "DFIntRenderClampRoughnessMax": "-640000000",
     "DFIntDebugFRMQualityLevelOverride": "6"
@@ -228,14 +228,14 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Disable PostFX
-```
+```json
 {
     "FFlagDisablePostFx": "True"
 }
 ```
 
 ### Pause Voxelizer/Disable Baked Shadows
-```
+```json
 {
     "DFFlagDebugPauseVoxelizer": "True"
 }
@@ -243,21 +243,21 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Gray Sky
 ###### Only applies to games with the default skybox
-```
+```json
 {
     "FFlagDebugSkyGray": "True"
 }
 ```
 
 ### Disable Player Shadows
-```
+```json
 {
     "FIntRenderShadowIntensity": "0"
 }
 ```
 
 ### Force LOD on Meshes
-```
+```json
 {
     "DFIntCSGLevelOfDetailSwitchingDistance": "0",
     "DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
@@ -267,7 +267,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Lighting Attenuation
-```
+```json
 {
     "FFlagNewLightAttenuation": "True"
 }
@@ -275,7 +275,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Enable GPULightCulling
 ###### Combine with Lighting Attenuation for better vision
-```
+```json
 {
     "FFlagFastGPULightCulling3": "True"
 }
@@ -283,7 +283,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Frame Buffer
 ###### Explnation: 0 makes white screen 1-3 makes other players have laggy movement, 4 is stable has better performance than 10 and less input lag
-```
+```json
 {
     "DFIntMaxFrameBufferSize": "4"
 }
@@ -291,7 +291,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### High Quality Textures
 ###### [1-3]
-```
+```json
 {
     "DFFlagTextureQualityOverrideEnabled": "True",
     "DFIntTextureQualityOverride": "3"
@@ -300,21 +300,21 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Lower Quality Textures
 ###### [1-3]
-```
+```json
 {
     "DFIntPerformanceControlTextureQualityBestUtility": "-1"
 }
 ```
 
 ### No avatar textures
-```
+```json
 {
     "DFIntTextureCompositorActiveJobs": "0"
 }
 ```
 
 ### Remove Grass
-``` 
+```json
 {
     "FIntFRMMinGrassDistance": "0",
     "FIntFRMMaxGrassDistance": "0",
@@ -325,7 +325,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Force MSAA
 ###### [0, 1, 2, 4, 8, 16]
-```
+```json
 {
     "FIntDebugForceMSAASamples": "4"
 }
@@ -333,7 +333,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### ShadowMap Bias
 ###### [Future & ShadowMap]
-```
+```json
 {
     "FIntRenderShadowmapBias": "75"
 }
@@ -341,7 +341,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Humanoid Outline
 ###### Draws an outline around every part and every humanoid
-```
+```json
 {
     "DFFlagDebugDrawBroadPhaseAABBs": "True"
 }
@@ -349,14 +349,14 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### FFlag above but more complex
 ###### Draws an outline around every body part
-```
+```json
 {
     "DFFlagDebugDrawBvhNodes": "True"
 }
 ```
 
 ### Buggy ZPlane Camera <sup>a.k.a xray</sup>
-```
+```json
 {
     "FIntCameraFarZPlane": "1"
 }
@@ -364,7 +364,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Xray
 ###### Some camera positions, will make textures transparent
-```
+```json
 {
     "DFIntCullFactorPixelThresholdMainViewHighQuality": "10000",
     "DFIntCullFactorPixelThresholdMainViewLowQuality": "10000",
@@ -376,28 +376,28 @@ If you have any fflag related questions join to the linked dc server and go to t
 <h1 align="center">User Interface</h2>
 
 ### Home Siderbar Text
-```
+```json
 {
     "FFlagEnableNavBarLabels3": "True"
 }
 ```
 
 ### Revert New "Builder" Font
-```
+```json
 {
     "FFlagEnableNewFontNameMappingABTest2": "False"
 }
 ```
 
 ### Revert spacing on errors
-```
+```json
 {
     "FFlagErrorPromptResizesHeight": "False"
 }
 ```
 
 ### GUI Hiding Toggles
-```
+```json
 {
     "FFlagUserShowGuiHideToggles": "True",
     "GuiHidingApiSupport2": "True"
@@ -405,7 +405,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Darker Dark Theme
-```
+```json
 {
     "FFlagLuaAppUseUIBloxColorPalettes1": "True",
     "FFlagUIBloxUseNewThemeColorPalettes": "True"
@@ -413,21 +413,21 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Subscriptions Page
-```
+```json
 {
     "FFlagLuaAppDevSubsEnabled": "True"
 }
 ```
 
 ### No Transparency V4 Menu (2023)
-```
+```json
 {
     "FStringInGameMenuModernizationStickyBarForcedUserIds": "UserID"
 }
 ```
 
 ### Revert Old Report Menu
-```
+```json
 {
     "FStringReportAbuseMenuRoactForcedUserIds": "null",
     "FFlagEnableReportAbuseMenuRoactABTest2": "False",
@@ -437,49 +437,49 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Custom MicroProfile Scale
-```
+```json
 {
     "DFIntMicroProfilerDpiScaleOverride":  "100"
 }
 ```
 
 ### Hides gui
-```
+```json
 {
     "FFlagDebugAdornsDisabled":  "True"
 }
 ```
 
 ### Dont Render UI
-```
+```json
 {
     "FFlagDebugDontRenderUI": "True"
 }
 ```
 
 ### Dont Render Screen GUIs
-```
+```json
 {
     "FFlagDebugDontRenderScreenGui": "True"
 }
 ```
 
 ### Enable Audio Controller
-```
+```json
 {
     "FFlagTrackerLodControllerDebugUI": "True"
 }
 ```
 
 ### Disable Autocomplete
-```
+```json
 {
     "FFlagEnableCommandAutocomplete": "False"
 }
 ```
 
 ### Chrome UI TopBar
-```
+```json
 {
     "FFlagEnableInGameMenuChrome": "True",
     "FFlagEnableReportAbuseMenuRoactABTest2": "True",
@@ -489,12 +489,12 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Pin Chat on Chrome UI
-```
+```json
 { "FFlagEnableChromePinnedChat":  "True" }
 ```
 
 ### Chrome UI Topbar Removal
-```
+```json
 {
     "FFlagEnableInGameMenuChromeABTest2": "False",
     "FFlagEnableReportAbuseMenuRoactABTest2": "False"
@@ -502,21 +502,21 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Disable Bubble Chat
-```
+```json
 {
     "FFlagEnableBubbleChatFromChatService":  "False"
 }
 ```
 
 ### Disable Selfview
-```
+```json
 {
     "FFlagCoreGuiTypeSelfViewPresent":  "False"
 }
 ```
 
 ### Remove VC Beta Badge
-```
+```json
 {
     "FFlagVoiceBetaBadge": "False",
     "FFlagTopBarUseNewBadge": "False",
@@ -535,28 +535,28 @@ If you have any fflag related questions join to the linked dc server and go to t
 | Ctrl + Shift + C | Toggles game-defined ScreenGuis |
 | Ctrl + Shift + G | Toggles Roblox CoreGuis |
 | Ctrl + Shift + N | Toggles player names, and other BillboardGuis that show up above a player |
-```
+```json
 {
     "DFIntCanHideGuiGroupId": "ID"
 }
 ```
 
 ### Disable Fullscreen Title Bar
-```
+```json
 {
     "FIntFullscreenTitleBarTriggerDelayMillis": "3600000"
 }
 ```
 
 ### Set Custom Font Size
-```
+```json
 {
     "FIntFontSizePadding": "1"
 }
 ```
 
 ### Set Custom Kick Message Lenght
-```
+```json
 {
     "FIntMaxKickMessageLength": "1"
 }
@@ -565,7 +565,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 <h1 align="center">Physics</h2>
 
 ### Fps Unlocker (NEW)
-```
+```json
 {
     "DFIntTaskSchedulerTargetFps": "29383" ,
     "FFlagGameBasicSettingsFramerateCap5": "False" ,
@@ -574,7 +574,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### N/A
-```
+```json
 {
     "FIntPhysicsGridHierarchyLowestLevelInitBinCount": "199999999",
     "FIntPhysicsGridHierarchyLowestLevelInitBinCountWorldModel": "100000000",
@@ -584,35 +584,35 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Crash Roblox
-```
+```json
 {
     "DFIntTimestepArbiterThresholdCFLThou": "0"
 }
 ```
 
 ### Stuttery Animation Fix
-```
+```json
 {
     "DFIntTimestepArbiterThresholdCFLThou": "300"
 }
 ```
 
 ### Remap R6 to R15 Rigs/Weird Movement
-```
+```json
 {
     "FFlagRemapAnimationR6ToR15Rig": "True"
 }
 ```
 
 ### Weird Leg Movement
-```
+```json
 {
     "DFFlagAnimatorPostProcessIK": "True"
 }
 ```
 
 ### Random High Jumps
-```
+```json
 {
     "FFlagSimAdaptiveTimesteppingDefault2": "True",
     "DFFlagSimHumanoidTimestepModelUpdate": "True"
@@ -620,14 +620,14 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Possible Super Jump
-```
+```json
 {
     "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500"
 }
 ```
 
 ### Desync FFlag
-```
+```json
 {
     "DFFlagPhysicsSkipNonRealTimeHumanoidForceCalc2": "False",
     "DFIntS2PhysicsSenderRate": "3",
@@ -638,7 +638,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Ultimate Desync
-```
+```json
 {
     "DFIntS2PhysicsSenderRate": "1", 
     "FIntPGSAngularDampingPermilPersecond": "0" 
@@ -646,7 +646,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Tool Desyncs
-```
+```json
 {
     "DFIntSimBlockLargeLocalToolWeldManipulationsThreshold": "-1"
 }
@@ -654,7 +654,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Increase walking/run speed
 ###### Working in some games, one of them "Phantom Forces". Fast Flag just making you slightly faster
-```
+```json
 {
     "DFIntDebugSimPhysicsSteppingMethodOverride": "10000000"
 }
@@ -662,7 +662,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Network Ownership
 ###### Better network ownership of parts. This might get you banned in some games with anticheats (Limbobbia)
-```
+```json
 {
     "DFIntMinClientSimulationRadius": "2147000000",
     "DFIntMinimalSimRadiusBuffer": "2147000000",
@@ -671,7 +671,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Freeze
-```
+```json
 {
     "FFlagDebugSimDefaultPrimalSolver": "True",
     "DFIntDebugSimPrimalLineSearch": "0"
@@ -679,7 +679,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Drunk
-```
+```json
 {
     "FFlagSimAdaptiveTimesteppingDefault2": "True",
     "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
@@ -689,7 +689,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### No Animations
 ###### Stops the game from trying to replicate your animations in the server. You dont have animations in the server but you do for your client
-```
+```json
 {
     "DFIntReplicatorAnimationTrackLimitPerAnimator": "-1"
 }
@@ -698,28 +698,28 @@ If you have any fflag related questions join to the linked dc server and go to t
 ### Max Raycast Distance
 ###### Raycasting is the use of intersection tests to solve problems in ROBLOX. The most common use of raycasting is to determine the first object intersected by a ray. This is done by casting a virtual ray from a certain point in a direction and determining the first surface it intersected with.
 ###### Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip cam on 3
-```
+```json
 {
     "DFIntRaycastMaxDistance": "3"
 }
 ```
 
 ### Change DataSender Rate <sup>a.k.a does not let you load games</sup>
-```
+```json
 {
     "DFIntDataSenderRate": "-1"
 }
 ```
 
 ### Disable Touch Events
-```
+```json
 {
     "DFIntTouchSenderMaxBandwidthBps": "-1"
 }
 ```
 
 ### Fake Lag
-```
+```json
 {
     "DFIntS2PhysicsSenderRate": "1"
 }
@@ -727,7 +727,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Invisible 1
 ###### Stops the physics on your character froms sending to the server so your character doesn't move for the server. You can move on your client.
-```
+```json
 {
     "DFIntS2PhysicsSenderRate": "-30"
 }
@@ -735,7 +735,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Invisible 2
 ###### Locks your character's position on the server to (0, 0, 0), having the side effect of turning you invisible. This only affects the server and other clients, not you. server-sided things that rely on your position, like clicking to get tools, will not function. In some games these can be abusable.
-```
+```json
 {
     "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10"
 }
@@ -743,7 +743,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Invisible 3 (BEST INVISIBLE)
 ###### Restricts the client from sending any physics-related information. This means other people can topple you over.
-```
+```json
 {
     "FFlagDebugSimDefaultPrimalSolver": "True",
     "DFFlagDebugSimPrimalFeedback": "True",
@@ -754,19 +754,19 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Clientsided Invisible
-```
+```json
 {
     "FIntParallelDynamicPartsFastClusterBatchSize": "-1"
 }
 ```
 
 ### Warp & Slowmotion
-```
+```json
 {
     "DFIntMaxMissedWorldStepsRemembered": "1"
 }
 ```
-```
+```json
 {
     "DFIntMaxMissedWorldStepsRemembered": "1000"
 }
@@ -774,21 +774,21 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Noclip (Probably Best One)
 ###### Adjust the value so you don't fall through the ground
-```
+```json
 {
         "DFFlagAssemblyExtentsExpansionStudHundredth": "-50"
 }
 ```
 
 ### Noclip 2 
-```
+```json
 {
     "DFIntSimBroadPhasePairCountMax": "50"
 }
 ```
 
 ### Noclip 3
-```
+```json
 {
     "FFlagDebugSimDefaultPrimalSolver": "True",
     "DFIntDebugSimPrimalStiffness": "0"
@@ -797,7 +797,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Hip Height
 ###### Very controllable bounce, only works with negative values, 0 allows you to hover
-```
+```json
 {
     "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
 }
@@ -806,14 +806,14 @@ If you have any fflag related questions join to the linked dc server and go to t
 <h1 align="center">Other FFlags</h2>
 
 ### Anti No Wifi Kick
-```
+```json
 {
     "DFFlagDebugDisableTimeoutDisconnect" : "True"
 }
 ```
 
 ### Custom Disconnect Message
-```
+```json
 {
     "FFlagReconnectDisabled": "True",
     "FStringReconnectDisabledReason": "You're stupid and I hate you"
@@ -822,7 +822,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Voice Chat Distance
 ###### default: [Min 7 Max 80]
-```
+```json
 {
     "DFIntVoiceChatRollOffMinDistance": "7",
     "DFIntVoiceChatRollOffMaxDistance": "80"
@@ -830,14 +830,14 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Disable In-game Advertisements
-```
+```json
 {
     "FFlagAdServiceEnabled": "False"
 }
 ```
 
 ### Disable Telemetry
-```
+```json
 {
     "FFlagDebugDisableTelemetryEphemeralCounter": "True",
     "FFlagDebugDisableTelemetryEphemeralStat": "True",
@@ -850,7 +850,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Adjust Scroll Speed
-```
+```json
 {
     "FIntScrollWheelDeltaAmount": "140"
 }
@@ -858,7 +858,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Surf the web inside of Roblox
 ###### Click the Beta badge or the 13+ badge to open the webview browser.
-```
+```json
 {
     "FFlagTopBarUseNewBadge": "True",
     "FStringTopBarBadgeLearnMoreLink": "https://google.com/",
@@ -868,21 +868,21 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Sounds use physical velocity and become distorted
 ###### 2017
-```
+```json
 {
     "FFlagSoundsUsePhysicalVelocity": "True"
 }
 ```
 
 ### Shows the state of a flag
-```
+```json
 {
     "FStringDebugShowFlagState": "FLAG_HERE"
 }
 ```
 
 ###### e.g
-```
+```json
 {
     "FStringDebugShowFlagState": "DFIntTaskSchedulerTargetFps, ChannelName"
 }
@@ -890,14 +890,14 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### MTU
 ###### [Might Improve Ping]
-```
+```json
 {
     "DFIntConnectionMTUSize": "MTU_HERE"
 }
 ```
 
 ### Increase Ping
-```
+```json
 {
     "DFIntDataSenderMaxBandwidthBps": "150"
 }
@@ -905,7 +905,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### No Internet Disconnect
 ###### You will still be kicked but the message wont show.
-```
+```json
 {
     "DFFlagDebugDisableTimeoutDisconnect": "True"
 }
@@ -913,7 +913,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Quick Game Launch
 ###### BUGGY
-```
+```json
 {
     "FFlagEnableQuickGameLaunch": "True"
 }
@@ -921,7 +921,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Allows you to change voice chat distance
 ###### default: [Min 7 Max 80]
-```
+```json
 {
     "DFIntVoiceChatRollOffMinDistance": "7",
     "DFIntVoiceChatRollOffMaxDistance": "80"
@@ -929,35 +929,35 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Disable In-Game Purchases
-```
+```json
 {
     "DFFlagOrder66": "True"
 }
 ```
 
 ### Disable Chat
-```
+```json
 {
     "FFlagDebugForceChatDisabled": "True"
 }
 ```
 
 ### Limit audios that are being played
-```
+```json
 {
     "DFIntMaxLoadableAudioChannelCount": "1"
 }
 ```
 
 ### Adds an UI in game, which highlights any part player touches (like ground, Meshes etc.). It's a non-functioning UI too. Also adds a blue circle to your humanoid.
-```
+```json
 {
     "FFlagDebugHumanoidRendering": "True"
 }
 ```
 
 ### Custom Disconnect Message
-```
+```json
 {
     "FFlagReconnectDisabled": "True",
     "FStringReconnectDisabledReason": "You're stupid and I hate you"
@@ -965,7 +965,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Display FPS
-```
+```json
 {
     "FFlagDebugDisplayFPS": "True"
 }
@@ -973,7 +973,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Verified Badge
 ###### Clientsided
-```
+```json
 {
     "FStringWhitelistVerifiedUserId": "UserID"
 }
@@ -981,35 +981,35 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Verified Badge on everyone
 ###### Clientsided
-```
+```json
 {
     "FFlagOverridePlayerVerifiedBadge": "True"
 }
 ```
 
 ### Applies cool colors to stuff
-```
+```json
 {
     "FFlagDebugDisplayUnthemedInstances": "True"
 }
 ```
 
 ### Show Outlined Chunks
-```
+```json
 {
     "FFlagDebugLightGridShowChunks": "True"
 }
 ```
 
 ### Show Outlined Chunks that are being interacted
-```
+```json
 {
     "DFFlagDebugEnableStreamingSolverVisualization": "True"
 }
 ```
 
 ### Remove Disconnect Blur/Loading Blur
-```
+```json
 {
     "FIntRobloxGuiBlurIntensity": "0"
 }
@@ -1017,7 +1017,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Disable Dynamic Heads Animations
 ###### https://roblox.fandom.com/wiki/Dynamic_Head
-```
+```json
 {
     "DFIntAnimationLodFacsDistanceMin": "0",
     "DFIntAnimationLodFacsDistanceMax": "0",
@@ -1026,21 +1026,21 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Automatically unmutes your mic on join (VC)
-```
+```json
 {
     "FFlagDebugDefaultChannelStartMuted": "False"
 }
 ```
 
 ### Overlay that shows what you type
-```
+```json
 {
     "FFlagDebugTextBoxServiceShowOverlay": "True"
 }
 ```
 
 ### Ammount of lines to show at once for above
-```
+```json
 {
     "DFIntTextBoxServiceHistorySize": "1"
 }
@@ -1048,14 +1048,14 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Opt-Put Experience Language
 ###### Removes the Experience Language option in settings
-```
+```json
 {
     "FIntV1MenuLanguageSelectionFeaturePerMillageRollout": "0"
 }
 ```
 
 ### Disable New Chat Translation Settings
-```
+```json
 {
     "FFlagChatTranslationSettingEnabled3 ": "False"
 }
@@ -1063,21 +1063,21 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Lets you change the zoom out limit
 ###### Only applies to games that has not changed the default zoom limit
-```
+```json
 {
     "FIntCameraMaxZoomDistance": "9999"
 }
 ```
 
 ### Limits number of animations being played
-```
+```json
 {
     "DFIntMaxActiveAnimationTracks": "0"
 }
 ```
 
 ### Prevents Remote Events from running
-```
+```json
 {
     "DFIntRemoteEventSingleInvocationSizeLimit": "1"
 }
@@ -1085,7 +1085,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Mess with voice chat volume
 ###### default 1000
-```
+```json
 {
     "DFIntVoiceChatVolumeThousandths": "100000"
 }
@@ -1093,35 +1093,35 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Removes the head roll limit for face tracking
 ###### Removes the head roll limit for face tracking
-```
+```json
 {
     "DFIntAvatarFaceChatHeadRollLimitDegrees": "360"
 }
 ```
 
 ### VR Controller transparency
-```
+```json
 {
     "FIntVRTouchControllerTransparency": "0"
 }
 ```
 
 ### No sounds
-```
+```json
 {
     "FFlagDebugRomarkMockingAudioDevices": "True"
 }
 ```
 
 ### Exclusive Fullscreen
-```
+```json
 {
     "FFlagHandleAltEnterFullscreenManually": "False"
 }
 ```
 
 ### Logs stuff in dev console
-```
+```json
 {
     "FStringDebugLuaLogLevel": "debug",
     "FStringDebugLuaLogPattern": "ExpChat/mountClientApp"
@@ -1129,7 +1129,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Don't touch walls!!!
-```
+```json
 {
     "DFIntDebugSimPrimalNewtonIts": "-2147483647",
     "DFIntDebugSimPrimalToleranceInv": "-2147483647",
@@ -1138,28 +1138,28 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Self Explanatory 1
-```
+```json
 {
     "DFFlagDebugPrintDataPingBreakDown": "True"
 }
 ```
 
 ### Self Explanatory 2
-```
+```json
 {
     "DFFlagDebugAudioLogging": "True"
 }
 ```
 
 ### Duplicate of Above
-```
+```json
 {
     "DFFlagDebugAudioLogging2": "True"
 }
 ```
 
 ### Self Explanatory 3
-```
+```json
 {
     "FFlagTrackerLodControllerDebugUI": "True"
 }
@@ -1167,7 +1167,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Self Explanatory 4
 ###### Disable Drag Detectors
-```
+```json
 {
     "FFlagDragDetectors1": "False"
 }
@@ -1175,7 +1175,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Self Explanatory 5
 ###### Disabe CTM Climbin
-```
+```json
 {
     "FFlagUserClickToMoveSupportAgentCanClimb2": "False"
 }
@@ -1183,7 +1183,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ### Self Explanatory 6
 ###### Disabe Feedback Button in ESC
-```
+```json
 {
     "FFlagDisableFeedbackSoothsayerCheck": "False"
 }
@@ -1192,7 +1192,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 <h1 align="center">Fast Flag Combinations</h2>
 
 ### Lower Ping
-```
+```json
 {
 "DFIntConnectionMTUSize": 900,
 "FIntRakNetResendBufferArrayLength": "128",
@@ -1214,7 +1214,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Boost FPS (Comfort To Play)
-```
+```json
 {
 "DFIntCSGLevelOfDetailSwitchingDistance": 250,
 "DFIntCSGLevelOfDetailSwitchingDistanceL12": 500,
@@ -1226,7 +1226,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Boost FPS
-```
+```json
 {
 "FFlagDebugDisableTelemetryEphemeralCounter": true,
 "FFlagDebugDisableTelemetryEphemeralStat": true,
@@ -1239,7 +1239,7 @@ If you have any fflag related questions join to the linked dc server and go to t
 ```
 
 ### Absoulutely kills your game graphics
-```
+```json
 {
     "FFlagDisablePostFx": "True",
     "FIntDebugTextureManagerSkipMips": "-1",
