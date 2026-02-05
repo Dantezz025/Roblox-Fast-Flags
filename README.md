@@ -7,7 +7,7 @@ https://github.com/Dantezz025/Roblox-Fast-Flags/blob/main/.github/FUNDING.yml
 
 <h1 align="center">Contact Me</h2>
 
-You can reach me via telegram: dantezz95
+You can reach me via telegram: soon or Discord Server linked to this repository.
 
 Want closed community fast flags? Dm me on discord or telegram for more info.
 
