@@ -7,17 +7,18 @@ https://github.com/Dantezz025/Roblox-Fast-Flags/blob/main/.github/FUNDING.yml
 
 <h1 align="center">Contact Me</h2>
 
-You can reach me via telegram: soon or Discord Server linked to this repository.
-
-Want closed community fast flags? Dm me on discord or telegram for more info.
-
-If you have any fflag related questions join to the linked dc server and go to the fflag help forum.
+- You can reach me through the Discord server linked to this repository.
+- Want access to a private Fast Flag community? DM me on Discord for more information.
 
 <h1 align="center">Info</h2>
 
-- 149 currently listed
+Due to recent Roblox updates, most of the flags on this list are no longer supported. You can view the current allowlist here: https://devforum.roblox.com/t/allowlist-for-local-client-configuration-via-fast-flags/3966569
 
-- Last update on 16.02.2025 | If there's any outdated fflags, please open pull request/issues and let me know what's not working
+If you still want to use unsupported flags, you may need applications such as executors, injectors, bypasses, or similar tools. However, using these tools may violate Roblox's Terms of Use and could result in a ban.
+
+---
+- Last update on 24.08.2025
+- If there are any outdated FFlags, please open a pull request or issue and let me know which ones are no longer working.
 
 ---
 
@@ -27,17 +28,23 @@ If you have any fflag related questions join to the linked dc server and go to t
 
 ---
 
-# Bloxstrap How to Use:
-1. Open the [Bloxstrap Menu](https://github.com/pizzaboxer/bloxstrap).
-2. Navigate to Fast Flags >> Fast Flags Editor >> Import Json.
-3. Paste in the JSON.
-4. Save and your good to go!
+# No Third-Party Software Method
 
-# Normal Roblox Bootstrapper How to Use:
-1. Navigate to your Roblox Installation directory. Typically found at %localappdata%\Roblox\Versions\ for Windows or C:\Program Files (x86)\Roblox\Versions.
-2. Identify the folder version-xxxxxxxxxxxxxxxx containing RobloxPlayerBeta.exe You can do this for Roblox Studio too.
-3. Download ClientSettings Folder and put it in folder you opened before
-4. Save and your good to go!
+1. Open the **Windows Run** dialog by pressing **Win + R**.
+2. Paste `%localappdata%\Roblox\Versions` and press **Enter**.
+3. Find the folder named `version-<hash>` that corresponds to your current Roblox installation. You can identify it by looking for the folder containing `RobloxPlayerBeta.exe`.
+4. Create a folder named `ClientSettings` inside it if one doesn't already exist.
+5. Inside `ClientSettings`, create a file named `ClientAppSettings.json`. Make sure the file extension is `.json`, not `.txt`.
+6. Open `ClientAppSettings.json` with Notepad and add your desired flags. For example:
+
+```json
+{
+  "DFIntTaskSchedulerTargetFps": 144
+}
+```
+
+# Third-Party Software Method:
+- Alternatively, you can use third-party software such as bootstrappers that support Fast Flag editing. These tools can make adding and managing flags easier.
 
 ## List Navigation
 • [Lightning Technologies](#lightning-technologies)
