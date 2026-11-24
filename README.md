@@ -7,8 +7,9 @@ https://github.com/Dantezz025/Roblox-Fast-Flags/blob/main/.github/FUNDING.yml
 
 <h1 align="center">Contact Me</h2>
 
-- You can reach me through the Discord server linked to this repository.
-- Want access to a private Fast Flag community? DM me on Discord for more information.
+- You can reach me through the Discord server linked below. Please note that this is a general community server, not a dedicated Fast Flags server, due to limitations introduced by recent Roblox updates. Nevertheless, you're welcome to ask questions, and either I or other community members may be able to help.
+
+- For inquiries about accessing private Fast Flags, feel free to DM me directly on Discord at **@dantez.cc**. Please make sure to join the [server](https://discord.gg/F2MD5f5Ume) first.
 
 <h1 align="center">Info</h2>
 
